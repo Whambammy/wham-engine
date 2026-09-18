@@ -1,0 +1,2002 @@
+{
+  "validate_code_syntax": {
+    "name": "validate_code_syntax",
+    "description": "Validates syntax tree, calculates AST complexity, detects malicious code and dead paths for autonomous agents.",
+    "price_usdc": "0.01",
+    "domain": "AST & Static Code Auditing",
+    "category": "Code Quality",
+    "path": "ecosystem/tools/validate_code_syntax",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "optimize_vector_svg": {
+    "name": "optimize_vector_svg",
+    "description": "Strips bloated XML, cleans SVG nodes, converts paths for direct cutting, sublimation, and high-performance web graphics.",
+    "price_usdc": "0.02",
+    "domain": "Vector & 2D Graphics Asset",
+    "category": "Graphics",
+    "path": "ecosystem/tools/optimize_vector_svg",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "optimize_3d_mesh": {
+    "name": "optimize_3d_mesh",
+    "description": "Bakes normal maps, decimates polycount, Draco-compresses GLTF models for 3D web engines and spatial metaverses.",
+    "price_usdc": "0.05",
+    "domain": "3D Mesh & WebGL Engine",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/optimize_3d_mesh",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "verify_regulatory_rules": {
+    "name": "verify_regulatory_rules",
+    "description": "Verifies sports equipment, compression thresholds, and tournament bracket integrity against deterministic rules.",
+    "price_usdc": "0.015",
+    "domain": "Deterministic Compliance",
+    "category": "Compliance",
+    "path": "ecosystem/tools/verify_regulatory_rules",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "clean_markdown_for_llm": {
+    "name": "clean_markdown_for_llm",
+    "description": "Strips trackers and ads, converting raw HTML into token-optimized Markdown for dense LLM ingestion.",
+    "price_usdc": "0.005",
+    "domain": "Web Extraction & Sanitization",
+    "category": "Data / LLM",
+    "path": "ecosystem/tools/clean_markdown_for_llm",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "generate_secure_hashcash": {
+    "name": "generate_secure_hashcash",
+    "description": "Calculates and verifies verifiable SHA-256 Hashcash challenges for machine rate-limiting and anti-spam protocols.",
+    "price_usdc": "0.01",
+    "domain": "Security & Cryptography",
+    "category": "Security",
+    "path": "ecosystem/tools/generate_secure_hashcash",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "deterministic_calc_engine": {
+    "name": "deterministic_calc_engine",
+    "description": "Precision floating-point and financial ledger arithmetic engine to bypass LLM calculation errors.",
+    "price_usdc": "0.01",
+    "domain": "Deterministic Computation",
+    "category": "Finance / Math",
+    "path": "ecosystem/tools/deterministic_calc_engine",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "detect_secrets_leak": {
+    "name": "detect_secrets_leak",
+    "description": "Scans code, logs, and payloads for leaked AWS tokens, OpenAI keys, GitHub PATs, private keys, and JWT secrets.",
+    "price_usdc": "0.015",
+    "domain": "Vulnerability Auditing",
+    "category": "Security",
+    "path": "ecosystem/tools/detect_secrets_leak",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "sanitize_sql_query": {
+    "name": "sanitize_sql_query",
+    "description": "Detects SQL injection vectors, escapes malicious input, and normalizes queries into strict parameterized syntax.",
+    "price_usdc": "0.01",
+    "domain": "Database & Query Defense",
+    "category": "Security",
+    "path": "ecosystem/tools/sanitize_sql_query",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "strip_prompt_injection": {
+    "name": "strip_prompt_injection",
+    "description": "Neutralizes indirect prompt injections, system prompt leak probes, jailbreak tokens, and hidden instruction tags in untrusted text.",
+    "price_usdc": "0.02",
+    "domain": "AI Safety & Alignment",
+    "category": "Security",
+    "path": "ecosystem/tools/strip_prompt_injection",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "convert_svg_to_png": {
+    "name": "convert_svg_to_png",
+    "description": "Deterministic SVG to PNG rasterizer with crisp sub-pixel antialiasing, custom DPI, and transparent alpha channel preservation.",
+    "price_usdc": "0.015",
+    "domain": "2D Graphics Rendering",
+    "category": "Graphics",
+    "path": "ecosystem/tools/convert_svg_to_png",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "minify_json_schema": {
+    "name": "minify_json_schema",
+    "description": "Strips verbose comments, redundant metadata, and whitespace from large JSON Schemas, cutting LLM context costs by 60%.",
+    "price_usdc": "0.005",
+    "domain": "Token Economy & Optimization",
+    "category": "Data / LLM",
+    "path": "ecosystem/tools/minify_json_schema",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "extract_structured_metadata": {
+    "name": "extract_structured_metadata",
+    "description": "Extracts and validates OpenGraph tags, JSON-LD schemas, Twitter cards, and microdata from crawled webpage bodies.",
+    "price_usdc": "0.01",
+    "domain": "Knowledge Graph Extraction",
+    "category": "Data / LLM",
+    "path": "ecosystem/tools/extract_structured_metadata",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "chunk_text_semantic": {
+    "name": "chunk_text_semantic",
+    "description": "Performs boundary-aware semantic token chunking with sliding context overlap to eliminate chunk truncation in vector search.",
+    "price_usdc": "0.005",
+    "domain": "RAG & Vector Retrieval",
+    "category": "Data / LLM",
+    "path": "ecosystem/tools/chunk_text_semantic",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "calculate_compound_yield": {
+    "name": "calculate_compound_yield",
+    "description": "Calculates deterministic DeFi APY/APR schedules, continuous compounding interest curves, and impermanent loss risk matrices.",
+    "price_usdc": "0.015",
+    "domain": "DeFi & Quantitative Finance",
+    "category": "Finance / Math",
+    "path": "ecosystem/tools/calculate_compound_yield",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "verify_evm_signature": {
+    "name": "verify_evm_signature",
+    "description": "Cryptographically verifies EIP-712 typed data and personal_sign ECDSA signatures on Base L2 without running expensive nodes.",
+    "price_usdc": "0.01",
+    "domain": "Web3 & Identity Cryptography",
+    "category": "Web3",
+    "path": "ecosystem/tools/verify_evm_signature",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "resolve_ens_basename": {
+    "name": "resolve_ens_basename",
+    "description": "Resolves Base `.base.eth` names and reverse ENS records to EVM addresses with on-chain cryptographic proof.",
+    "price_usdc": "0.01",
+    "domain": "Web3 & Identity Cryptography",
+    "category": "Web3",
+    "path": "ecosystem/tools/resolve_ens_basename",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "generate_identicon_avatar": {
+    "name": "generate_identicon_avatar",
+    "description": "Generates beautiful, deterministic SVG/PNG geometric identicon avatar badges from machine public keys or wallet hashes.",
+    "price_usdc": "0.01",
+    "domain": "Machine Identity & UI Assets",
+    "category": "Graphics",
+    "path": "ecosystem/tools/generate_identicon_avatar",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "verify_bracket_integrity": {
+    "name": "verify_bracket_integrity",
+    "description": "Validates single, double, and Swiss elimination tournament bracket trees, ensuring zero collision and deterministic match progression.",
+    "price_usdc": "0.015",
+    "domain": "Tournament Algorithms",
+    "category": "Compliance",
+    "path": "ecosystem/tools/verify_bracket_integrity",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "compress_image_webp": {
+    "name": "compress_image_webp",
+    "description": "Serverless WebP image compressor: optimizes alpha channels, strips privacy-invasive EXIF tags, and cuts image weight by 80%.",
+    "price_usdc": "0.025",
+    "domain": "Media & Asset Compression",
+    "category": "Graphics",
+    "path": "ecosystem/tools/compress_image_webp",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "generate_totp_token": {
+    "name": "generate_totp_token",
+    "description": "RFC-6238 compliant deterministic Time-based One-Time Password (TOTP) generator and verification kernel for machine authentication.",
+    "price_usdc": "0.01",
+    "domain": "Security & Cryptography",
+    "category": "Security",
+    "path": "ecosystem/tools/generate_totp_token",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "calculate_bounding_box_3d": {
+    "name": "calculate_bounding_box_3d",
+    "description": "Calculates precise Axis-Aligned Bounding Box (AABB) and Oriented Bounding Box (OBB) spatial collision hulls for complex 3D meshes.",
+    "price_usdc": "0.02",
+    "domain": "Spatial Computing & Physics",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/calculate_bounding_box_3d",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "validate_jwt_token": {
+    "name": "validate_jwt_token",
+    "description": "Validates JSON Web Tokens (JWT): checks expiration, nbf, issuer, audience, and signature algorithm without external identity providers.",
+    "price_usdc": "0.01",
+    "domain": "Authentication & Tokens",
+    "category": "Security",
+    "path": "ecosystem/tools/validate_jwt_token",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "generate_merkle_proof": {
+    "name": "generate_merkle_proof",
+    "description": "Constructs binary SHA-256 Merkle trees and generates lightweight cryptographic inclusion proofs for whitelist and state verification.",
+    "price_usdc": "0.02",
+    "domain": "Cryptographic Trees & Proofs",
+    "category": "Security",
+    "path": "ecosystem/tools/generate_merkle_proof",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "scan_dependency_cve": {
+    "name": "scan_dependency_cve",
+    "description": "Audits package manifests (package.json, requirements.txt) against deterministic national vulnerability databases for known CVE exploits.",
+    "price_usdc": "0.02",
+    "domain": "Software Supply Chain Security",
+    "category": "Security",
+    "path": "ecosystem/tools/scan_dependency_cve",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "obfuscate_pii_entities": {
+    "name": "obfuscate_pii_entities",
+    "description": "Detects and masks Personally Identifiable Information (SSNs, credit cards, emails, phone numbers, API keys) prior to model ingestion.",
+    "price_usdc": "0.01",
+    "domain": "Privacy & Data Compliance",
+    "category": "Data / LLM",
+    "path": "ecosystem/tools/obfuscate_pii_entities",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "verify_cors_headers": {
+    "name": "verify_cors_headers",
+    "description": "Simulates preflight OPTIONS handshakes and verifies Access-Control-Allow-Origin, headers, and credentials for autonomous web workers.",
+    "price_usdc": "0.005",
+    "domain": "Web Protocol Auditing",
+    "category": "Security",
+    "path": "ecosystem/tools/verify_cors_headers",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "generate_ed25519_keypair": {
+    "name": "generate_ed25519_keypair",
+    "description": "Generates cryptographically secure Ed25519 keypairs and produces verifiable detached signatures for machine-to-machine trust fabrics.",
+    "price_usdc": "0.01",
+    "domain": "Public Key Cryptography",
+    "category": "Security",
+    "path": "ecosystem/tools/generate_ed25519_keypair",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "parse_pdf_form_fields": {
+    "name": "parse_pdf_form_fields",
+    "description": "Parses fillable PDF documents, extracts AcroForm dictionary keys, checkboxes, and signature metadata into structured JSON.",
+    "price_usdc": "0.02",
+    "domain": "Document Automation",
+    "category": "Data / LLM",
+    "path": "ecosystem/tools/parse_pdf_form_fields",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "convert_csv_to_parquet": {
+    "name": "convert_csv_to_parquet",
+    "description": "Converts delimited CSV/TSV data into columnar Apache Parquet format with snappy compression, cutting query costs and storage by 85%.",
+    "price_usdc": "0.015",
+    "domain": "Data Engineering & Formats",
+    "category": "Data / LLM",
+    "path": "ecosystem/tools/convert_csv_to_parquet",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "repair_malformed_json": {
+    "name": "repair_malformed_json",
+    "description": "Repairs truncated JSON, unclosed quotes, missing closing braces, trailing commas, and single-quoted strings emitted by LLMs.",
+    "price_usdc": "0.005",
+    "domain": "LLM Response Recovery",
+    "category": "Data / LLM",
+    "path": "ecosystem/tools/repair_malformed_json",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "normalize_phonetic_text": {
+    "name": "normalize_phonetic_text",
+    "description": "Computes Double Metaphone and Soundex phonetic hashes to match misspelled names, speech-to-text transcript errors, and slang.",
+    "price_usdc": "0.005",
+    "domain": "Fuzzy Matching & Text Normalization",
+    "category": "Data / LLM",
+    "path": "ecosystem/tools/normalize_phonetic_text",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "extract_audio_transcription_cues": {
+    "name": "extract_audio_transcription_cues",
+    "description": "Formats raw speech model timestamp segments into standard WebVTT and SRT subtitle tracks with sentence boundary alignment.",
+    "price_usdc": "0.01",
+    "domain": "Speech & Video Subtitles",
+    "category": "Media",
+    "path": "ecosystem/tools/extract_audio_transcription_cues",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "deduplicate_embeddings_cosine": {
+    "name": "deduplicate_embeddings_cosine",
+    "description": "Performs pairwise cosine distance analysis over vector candidate sets, pruning near-duplicate memory nodes for agent context efficiency.",
+    "price_usdc": "0.015",
+    "domain": "Vector Retrieval & Memory",
+    "category": "Data / LLM",
+    "path": "ecosystem/tools/deduplicate_embeddings_cosine",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "simulate_erc20_transfer": {
+    "name": "simulate_erc20_transfer",
+    "description": "Simulates ERC-20 transfer calldata, allowance sufficiency, and Base L2 gas consumption before broadcasting live transactions.",
+    "price_usdc": "0.01",
+    "domain": "Smart Contract Simulation",
+    "category": "Web3",
+    "path": "ecosystem/tools/simulate_erc20_transfer",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "decode_evm_calldata": {
+    "name": "decode_evm_calldata",
+    "description": "Decodes raw 4-byte function selectors and hex calldata into human-readable method signatures, types, and named arguments.",
+    "price_usdc": "0.01",
+    "domain": "EVM ABI Introspection",
+    "category": "Web3",
+    "path": "ecosystem/tools/decode_evm_calldata",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "compute_uniswap_v3_quote": {
+    "name": "compute_uniswap_v3_quote",
+    "description": "Calculates exact sqrtPriceX96 tick mathematics, price impact, and swap output amounts for concentrated liquidity pools on Base.",
+    "price_usdc": "0.02",
+    "domain": "Automated Market Maker Math",
+    "category": "Finance / Math",
+    "path": "ecosystem/tools/compute_uniswap_v3_quote",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "verify_merkle_airdrop_leaf": {
+    "name": "verify_merkle_airdrop_leaf",
+    "description": "Verifies recipient address, token claim amount, and proof array against an immutable Merkle airdrop distribution contract root.",
+    "price_usdc": "0.01",
+    "domain": "Cryptographic Token Distribution",
+    "category": "Web3",
+    "path": "ecosystem/tools/verify_merkle_airdrop_leaf",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "encode_multisig_transaction": {
+    "name": "encode_multisig_transaction",
+    "description": "Encodes Safe (Gnosis) multi-signature transaction payload batches with gas price caps, nonce protection, and execution hashes.",
+    "price_usdc": "0.015",
+    "domain": "Safe Multi-Sig Governance",
+    "category": "Web3",
+    "path": "ecosystem/tools/encode_multisig_transaction",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "calculate_impermanent_loss": {
+    "name": "calculate_impermanent_loss",
+    "description": "Calculates exact percentage impermanent loss and dollar shortfall compared to holding assets based on multi-asset price ratio shifts.",
+    "price_usdc": "0.01",
+    "domain": "Liquidity Pool Risk Analysis",
+    "category": "Finance / Math",
+    "path": "ecosystem/tools/calculate_impermanent_loss",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "transpile_ts_to_js": {
+    "name": "transpile_ts_to_js",
+    "description": "Fast serverless TypeScript transpiler: strips type annotations, interfaces, and enums, emitting valid ES2022 JavaScript for instant eval.",
+    "price_usdc": "0.015",
+    "domain": "TypeScript Compiler & Transpilation",
+    "category": "Code Quality",
+    "path": "ecosystem/tools/transpile_ts_to_js",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "diff_ast_trees": {
+    "name": "diff_ast_trees",
+    "description": "Computes semantic Abstract Syntax Tree differences between two code revisions, ignoring whitespace and cosmetic comment edits.",
+    "price_usdc": "0.02",
+    "domain": "Semantic Code Diffing",
+    "category": "Code Quality",
+    "path": "ecosystem/tools/diff_ast_trees",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "convert_curl_to_fetch": {
+    "name": "convert_curl_to_fetch",
+    "description": "Parses raw Bash cURL commands and automatically generates modern native fetch(), axios, or python requests snippets with auth headers.",
+    "price_usdc": "0.005",
+    "domain": "API Translation & Tooling",
+    "category": "Code Quality",
+    "path": "ecosystem/tools/convert_curl_to_fetch",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "generate_regex_dfa": {
+    "name": "generate_regex_dfa",
+    "description": "Analyzes regular expressions for catastrophic exponential backtracking vulnerabilities (ReDoS) and generates safe DFA transition tables.",
+    "price_usdc": "0.01",
+    "domain": "Formal Languages & ReDoS Defense",
+    "category": "Security",
+    "path": "ecosystem/tools/generate_regex_dfa",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "calculate_code_metrics": {
+    "name": "calculate_code_metrics",
+    "description": "Computes Halstead volume, maintainability index, cyclomatic complexity, and SLOC density metrics across source files.",
+    "price_usdc": "0.01",
+    "domain": "Software Engineering Metrics",
+    "category": "Code Quality",
+    "path": "ecosystem/tools/calculate_code_metrics",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "format_graphql_query": {
+    "name": "format_graphql_query",
+    "description": "Validates, formats, and minifies complex GraphQL queries and mutation documents, stripping comments and redundant whitespace.",
+    "price_usdc": "0.005",
+    "domain": "GraphQL AST & Minification",
+    "category": "Data / LLM",
+    "path": "ecosystem/tools/format_graphql_query",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "convert_gltf_to_obj": {
+    "name": "convert_gltf_to_obj",
+    "description": "Translates modern GLTF/GLB scene buffer models into universal Wavefront OBJ vertex and material (.mtl) streams for older CAD engines.",
+    "price_usdc": "0.025",
+    "domain": "3D File Conversion",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/convert_gltf_to_obj",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "extract_exif_geolocation": {
+    "name": "extract_exif_geolocation",
+    "description": "Extracts or securely scrubs GPS coordinates, altitude, camera device serials, and timestamps from JPEG/TIFF/HEIC image buffers.",
+    "price_usdc": "0.01",
+    "domain": "Computer Vision & Metadata Privacy",
+    "category": "Graphics",
+    "path": "ecosystem/tools/extract_exif_geolocation",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "calculate_color_contrast_wcag": {
+    "name": "calculate_color_contrast_wcag",
+    "description": "Calculates relative luminance and exact contrast ratio between foreground and background colors according to WCAG 2.1 AAA standards.",
+    "price_usdc": "0.005",
+    "domain": "Design Systems & Accessibility",
+    "category": "Graphics",
+    "path": "ecosystem/tools/calculate_color_contrast_wcag",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "generate_qr_code_svg": {
+    "name": "generate_qr_code_svg",
+    "description": "Generates high-precision scalable vector (SVG) QR codes with High error correction (ECC Level H), tailored for Base payment URIs.",
+    "price_usdc": "0.01",
+    "domain": "Vector Barcodes & Payment Links",
+    "category": "Graphics",
+    "path": "ecosystem/tools/generate_qr_code_svg",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "resilient_http_probe": {
+    "name": "resilient_http_probe",
+    "description": "Robust HTTP/S request engine with exponential backoff, jittered retries, smart timeout isolation, and header anti-bot rotation.",
+    "price_usdc": "0.01",
+    "domain": "Fault-Tolerant Networking",
+    "category": "Networking",
+    "path": "ecosystem/tools/resilient_http_probe",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "bypass_cf_clearance_detector": {
+    "name": "bypass_cf_clearance_detector",
+    "description": "Inspects target domains for Cloudflare, Akamai, and Datadome challenge screens, returning actionable bypass and session hints.",
+    "price_usdc": "0.015",
+    "domain": "WAF & Bot Detection",
+    "category": "Security",
+    "path": "ecosystem/tools/bypass_cf_clearance_detector",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "scrape_html_headless_fallback": {
+    "name": "scrape_html_headless_fallback",
+    "description": "Dual-tier scraper: tries ultra-fast static HTML parse first, seamlessly falling back to headless Chromium only if JS hydration is required.",
+    "price_usdc": "0.02",
+    "domain": "Hybrid Web Extraction",
+    "category": "Data / LLM",
+    "path": "ecosystem/tools/scrape_html_headless_fallback",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "resolve_dns_over_https": {
+    "name": "resolve_dns_over_https",
+    "description": "Multi-provider DNS-over-HTTPS (DoH) resolver across Cloudflare, Google, and Quad9, bypassing local ISP poisoning and timeouts.",
+    "price_usdc": "0.005",
+    "domain": "Network Infrastructure",
+    "category": "Networking",
+    "path": "ecosystem/tools/resolve_dns_over_https",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "validate_webhook_delivery": {
+    "name": "validate_webhook_delivery",
+    "description": "Validates HMAC-SHA256 signatures, timestamps, and replay tolerance for Stripe, GitHub, Shopify, and Alchemy webhook events.",
+    "price_usdc": "0.01",
+    "domain": "API Security & Integrity",
+    "category": "Security",
+    "path": "ecosystem/tools/validate_webhook_delivery",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "parse_rss_atom_resilient": {
+    "name": "parse_rss_atom_resilient",
+    "description": "Fault-tolerant RSS 2.0 / Atom feed parser that auto-corrects malformed XML entities, unescaped HTML, and invalid ISO dates.",
+    "price_usdc": "0.005",
+    "domain": "Feed Aggregation & News",
+    "category": "Data / LLM",
+    "path": "ecosystem/tools/parse_rss_atom_resilient",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "sanitize_url_redirect_chain": {
+    "name": "sanitize_url_redirect_chain",
+    "description": "Follows and unpacks recursive redirects, tracking pixel URLs, and affiliate shortlinks, returning the canonical safe destination.",
+    "price_usdc": "0.01",
+    "domain": "Link Inspection & Safety",
+    "category": "Networking",
+    "path": "ecosystem/tools/sanitize_url_redirect_chain",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "extract_sitemap_hierarchy": {
+    "name": "extract_sitemap_hierarchy",
+    "description": "High-speed recursive XML sitemap parser with automatic gzipped (.xml.gz) sitemap index expansion and dead link filtering.",
+    "price_usdc": "0.015",
+    "domain": "Web Crawling & Indexing",
+    "category": "Data / LLM",
+    "path": "ecosystem/tools/extract_sitemap_hierarchy",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "throttle_rate_limiter_token": {
+    "name": "throttle_rate_limiter_token",
+    "description": "Token-bucket rate limiter that calculates sleep intervals and burst limits to prevent autonomous agents from getting HTTP 429 blocked.",
+    "price_usdc": "0.005",
+    "domain": "API Rate-Limit Protection",
+    "category": "Networking",
+    "path": "ecosystem/tools/throttle_rate_limiter_token",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "inspect_ssl_cert_chain": {
+    "name": "inspect_ssl_cert_chain",
+    "description": "Audits SSL/TLS certificate chains, SAN domains, and expiration dates without crashing on self-signed or expired certificates.",
+    "price_usdc": "0.01",
+    "domain": "TLS/SSL Certificate Audit",
+    "category": "Security",
+    "path": "ecosystem/tools/inspect_ssl_cert_chain",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "robust_csv_stream_repair": {
+    "name": "robust_csv_stream_repair",
+    "description": "Auto-detects delimiters (comma, tab, semicolon), repairs unescaped double quotes, and normalizes ragged rows safely.",
+    "price_usdc": "0.01",
+    "domain": "Data Cleaning & CSV Repair",
+    "category": "Data / LLM",
+    "path": "ecosystem/tools/robust_csv_stream_repair",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "decompress_safe_archive": {
+    "name": "decompress_safe_archive",
+    "description": "Zip-bomb and path-traversal (../../) immune extractor for ZIP/TAR/GZ archives with strict file count and uncompressed byte limits.",
+    "price_usdc": "0.02",
+    "domain": "Safe Archive Extraction",
+    "category": "Security",
+    "path": "ecosystem/tools/decompress_safe_archive",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "excel_sheet_to_json": {
+    "name": "excel_sheet_to_json",
+    "description": "Fault-tolerant XLSX/XLS parser that ignores formula calculation errors (#REF!, #DIV/0!) and outputs structured JSON matrices.",
+    "price_usdc": "0.015",
+    "domain": "Spreadsheet Automation",
+    "category": "Data / LLM",
+    "path": "ecosystem/tools/excel_sheet_to_json",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "diff_json_deep": {
+    "name": "diff_json_deep",
+    "description": "Deterministic RFC-6902 JSON Patch generator that handles array reordering and circular reference traps without stack overflow.",
+    "price_usdc": "0.01",
+    "domain": "Data Structure Diffing",
+    "category": "Data / LLM",
+    "path": "ecosystem/tools/diff_json_deep",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "normalize_unicode_nfc": {
+    "name": "normalize_unicode_nfc",
+    "description": "Normalizes mixed UTF-8/UTF-16 encoding, strips invalid surrogate pairs, and fixes corrupted mojibake characters.",
+    "price_usdc": "0.005",
+    "domain": "Character Encoding & Mojibake",
+    "category": "Data / LLM",
+    "path": "ecosystem/tools/normalize_unicode_nfc",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "truncate_text_token_budget": {
+    "name": "truncate_text_token_budget",
+    "description": "Clamps text to exact token budgets without splitting unicode emojis, code blocks, or markdown syntax.",
+    "price_usdc": "0.005",
+    "domain": "LLM Token Budgeting",
+    "category": "Data / LLM",
+    "path": "ecosystem/tools/truncate_text_token_budget",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "flatten_nested_json_object": {
+    "name": "flatten_nested_json_object",
+    "description": "Flattens deep nested JSON hierarchies into dot-notation keys with recursion depth safety limits to avoid memory crashes.",
+    "price_usdc": "0.005",
+    "domain": "JSON Transformation",
+    "category": "Data / LLM",
+    "path": "ecosystem/tools/flatten_nested_json_object",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "convert_yaml_to_json_safe": {
+    "name": "convert_yaml_to_json_safe",
+    "description": "Safe YAML-to-JSON parser that disables dangerous code execution tags and standardizes multi-document streams.",
+    "price_usdc": "0.005",
+    "domain": "Config Parsing & Serialization",
+    "category": "Code Quality",
+    "path": "ecosystem/tools/convert_yaml_to_json_safe",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "extract_tables_from_markdown": {
+    "name": "extract_tables_from_markdown",
+    "description": "Resilient markdown table parser that handles missing pipes, ragged rows, and embedded line breaks into structured tables.",
+    "price_usdc": "0.01",
+    "domain": "Markdown Data Extraction",
+    "category": "Data / LLM",
+    "path": "ecosystem/tools/extract_tables_from_markdown",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "inspect_mime_magic_bytes": {
+    "name": "inspect_mime_magic_bytes",
+    "description": "Identifies true file format from binary magic bytes (first 512 bytes), ignoring spoofed file extensions.",
+    "price_usdc": "0.005",
+    "domain": "Binary Forensics",
+    "category": "Security",
+    "path": "ecosystem/tools/inspect_mime_magic_bytes",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "safe_eval_math_expression": {
+    "name": "safe_eval_math_expression",
+    "description": "Sandboxed mathematical AST evaluator with zero access to globals, eval, or system prototypes.",
+    "price_usdc": "0.005",
+    "domain": "Deterministic Math Sandbox",
+    "category": "Finance / Math",
+    "path": "ecosystem/tools/safe_eval_math_expression",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "git_diff_semantic_summarizer": {
+    "name": "git_diff_semantic_summarizer",
+    "description": "Parses large Git diffs without hitting buffer limits, grouping changes into semantic file hunks and change intent.",
+    "price_usdc": "0.015",
+    "domain": "Version Control & Diffing",
+    "category": "Code Quality",
+    "path": "ecosystem/tools/git_diff_semantic_summarizer",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "validate_cron_expression": {
+    "name": "validate_cron_expression",
+    "description": "Parses standard 5/6-field cron expressions and calculates the next N exact UTC execution timestamps without timezone bugs.",
+    "price_usdc": "0.005",
+    "domain": "Scheduling & Automation",
+    "category": "Compliance",
+    "path": "ecosystem/tools/validate_cron_expression",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "generate_semver_bump": {
+    "name": "generate_semver_bump",
+    "description": "Computes the next semantic version (major, minor, patch, prerelease) based on conventional commit prefixes.",
+    "price_usdc": "0.005",
+    "domain": "Release Automation",
+    "category": "Code Quality",
+    "path": "ecosystem/tools/generate_semver_bump",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "strip_ansi_terminal_codes": {
+    "name": "strip_ansi_terminal_codes",
+    "description": "Strips terminal ANSI color escape sequences, progress spinner bytes, and cursor movements from CLI outputs.",
+    "price_usdc": "0.005",
+    "domain": "Log Sanitization",
+    "category": "Code Quality",
+    "path": "ecosystem/tools/strip_ansi_terminal_codes",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "format_sql_query_pretty": {
+    "name": "format_sql_query_pretty",
+    "description": "AST-aware SQL formatter that handles complex CTEs, window functions, and nested subqueries without syntax corruption.",
+    "price_usdc": "0.005",
+    "domain": "Database Tooling",
+    "category": "Code Quality",
+    "path": "ecosystem/tools/format_sql_query_pretty",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "validate_dockerfile_syntax": {
+    "name": "validate_dockerfile_syntax",
+    "description": "Lints Dockerfiles for non-deterministic tags, missing layers, root execution vulnerabilities, and cache invalidation anti-patterns.",
+    "price_usdc": "0.015",
+    "domain": "DevOps & Container Security",
+    "category": "Code Quality",
+    "path": "ecosystem/tools/validate_dockerfile_syntax",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "generate_hash_multi_algo": {
+    "name": "generate_hash_multi_algo",
+    "description": "Computes MD5, SHA-1, SHA-256, and SHA-512 checksums simultaneously across byte streams with memory-bounded chunking.",
+    "price_usdc": "0.01",
+    "domain": "Data Integrity & Hashing",
+    "category": "Security",
+    "path": "ecosystem/tools/generate_hash_multi_algo",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "detect_circular_dependencies": {
+    "name": "detect_circular_dependencies",
+    "description": "Analyzes import/require dependency graphs across JS/TS/Python modules and isolates cyclic import loops.",
+    "price_usdc": "0.015",
+    "domain": "Architecture & Static Analysis",
+    "category": "Code Quality",
+    "path": "ecosystem/tools/detect_circular_dependencies",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "parse_env_file_safe": {
+    "name": "parse_env_file_safe",
+    "description": "Multi-line .env parser that safely handles quoted values, export statements, variable interpolation, and comments.",
+    "price_usdc": "0.005",
+    "domain": "Environment & Configuration",
+    "category": "Code Quality",
+    "path": "ecosystem/tools/parse_env_file_safe",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "estimate_base_gas_safe": {
+    "name": "estimate_base_gas_safe",
+    "description": "Computes optimal EIP-1559 baseFee + priorityFee on Base L2 with gas spike buffers to prevent stalled transactions.",
+    "price_usdc": "0.01",
+    "domain": "Base L2 Gas Estimation",
+    "category": "Web3",
+    "path": "ecosystem/tools/estimate_base_gas_safe",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "verify_contract_bytecode": {
+    "name": "verify_contract_bytecode",
+    "description": "Checks whether an EVM address on Base has deployed bytecode or is an EOA, preventing wasted transfers to empty contracts.",
+    "price_usdc": "0.01",
+    "domain": "Smart Contract Verification",
+    "category": "Web3",
+    "path": "ecosystem/tools/verify_contract_bytecode",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "calculate_dex_slippage_bounds": {
+    "name": "calculate_dex_slippage_bounds",
+    "description": "Computes minimum amountOut bounds based on maximum slippage tolerance to protect agent swaps from MEV sandwich attacks.",
+    "price_usdc": "0.01",
+    "domain": "DEX Trading & MEV Protection",
+    "category": "Finance / Math",
+    "path": "ecosystem/tools/calculate_dex_slippage_bounds",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "format_wei_to_ether_precise": {
+    "name": "format_wei_to_ether_precise",
+    "description": "Lossless arbitrary-precision BigInt wei to ether/USDC converter that avoids JavaScript 64-bit float precision loss.",
+    "price_usdc": "0.005",
+    "domain": "Arbitrary Precision Math",
+    "category": "Finance / Math",
+    "path": "ecosystem/tools/format_wei_to_ether_precise",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "validate_evm_checksum_address": {
+    "name": "validate_evm_checksum_address",
+    "description": "Validates and recalculates EIP-55 mixed-case checksums for EVM addresses, detecting mistyped hex characters.",
+    "price_usdc": "0.005",
+    "domain": "EIP-55 Checksum Validation",
+    "category": "Web3",
+    "path": "ecosystem/tools/validate_evm_checksum_address",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "decode_revert_reason_hex": {
+    "name": "decode_revert_reason_hex",
+    "description": "Decodes EVM transaction revert reason strings from standard Error(string) and Panic(uint256) error selectors.",
+    "price_usdc": "0.01",
+    "domain": "EVM Transaction Debugging",
+    "category": "Web3",
+    "path": "ecosystem/tools/decode_revert_reason_hex",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "encode_erc20_approve_safe": {
+    "name": "encode_erc20_approve_safe",
+    "description": "Generates safe ERC-20 approve calldata with allowance reset logic (handles USDT/0-allowance requirement).",
+    "price_usdc": "0.01",
+    "domain": "DeFi Transaction Encoding",
+    "category": "Web3",
+    "path": "ecosystem/tools/encode_erc20_approve_safe",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "verify_signature_eip191": {
+    "name": "verify_signature_eip191",
+    "description": "Standardized EIP-191 personal_sign message digest hasher and recovery verification kernel.",
+    "price_usdc": "0.01",
+    "domain": "EIP-191 Personal Sign",
+    "category": "Web3",
+    "path": "ecosystem/tools/verify_signature_eip191",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "calculate_staking_apr_decay": {
+    "name": "calculate_staking_apr_decay",
+    "description": "Calculates reward distribution curves and halving decay for proof-of-stake or liquidity farming smart contracts.",
+    "price_usdc": "0.015",
+    "domain": "Tokenomics & Yield Modeling",
+    "category": "Finance / Math",
+    "path": "ecosystem/tools/calculate_staking_apr_decay",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "generate_permit2_witness_hash": {
+    "name": "generate_permit2_witness_hash",
+    "description": "Generates Uniswap Permit2 structured typed data witness hashes for gasless token authorization signatures.",
+    "price_usdc": "0.015",
+    "domain": "Gasless Authorizations",
+    "category": "Web3",
+    "path": "ecosystem/tools/generate_permit2_witness_hash",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "resize_image_preserve_aspect": {
+    "name": "resize_image_preserve_aspect",
+    "description": "In-memory image dimension calculator with aspect ratio preservation and integer boundary clamping.",
+    "price_usdc": "0.01",
+    "domain": "Image Layout & Dimensions",
+    "category": "Graphics",
+    "path": "ecosystem/tools/resize_image_preserve_aspect",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "convert_hex_rgb_hsl": {
+    "name": "convert_hex_rgb_hsl",
+    "description": "Bidirectional color format translator between HEX, RGB, RGBA, HSL, and HSLA with gamut clipping.",
+    "price_usdc": "0.005",
+    "domain": "Color Theory & Conversion",
+    "category": "Graphics",
+    "path": "ecosystem/tools/convert_hex_rgb_hsl",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "generate_svg_sparkline": {
+    "name": "generate_svg_sparkline",
+    "description": "Generates lightweight, zero-dependency SVG inline sparkline charts from numeric series for agent financial reporting.",
+    "price_usdc": "0.01",
+    "domain": "Data Visualization",
+    "category": "Graphics",
+    "path": "ecosystem/tools/generate_svg_sparkline",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "validate_gltf_structure": {
+    "name": "validate_gltf_structure",
+    "description": "Inspects GLTF/GLB JSON chunk headers, verifying buffers, accessors, and meshes without crashing on binary chunks.",
+    "price_usdc": "0.02",
+    "domain": "3D File Validation",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/validate_gltf_structure",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "calculate_viewport_responsive": {
+    "name": "calculate_viewport_responsive",
+    "description": "Generates responsive viewport breakpoint media query matrices for web generation agents.",
+    "price_usdc": "0.005",
+    "domain": "UI Design & Breakpoints",
+    "category": "Graphics",
+    "path": "ecosystem/tools/calculate_viewport_responsive",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "generate_placeholder_svg": {
+    "name": "generate_placeholder_svg",
+    "description": "Generates customizable geometric SVG placeholder badges with custom dimensions, labels, and color palettes.",
+    "price_usdc": "0.005",
+    "domain": "Mocking & Wireframing",
+    "category": "Graphics",
+    "path": "ecosystem/tools/generate_placeholder_svg",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "extract_dominant_color_palette": {
+    "name": "extract_dominant_color_palette",
+    "description": "Computes k-means dominant 5-color aesthetic palettes from image pixel data without heavy native dependencies.",
+    "price_usdc": "0.015",
+    "domain": "Computer Vision & Color Quantization",
+    "category": "Graphics",
+    "path": "ecosystem/tools/extract_dominant_color_palette",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "convert_bounding_box_format": {
+    "name": "convert_bounding_box_format",
+    "description": "Translates between YOLO (normalized center xywh), COCO (top-left xywh), and Pascal VOC (xmin, ymin, xmax, ymax).",
+    "price_usdc": "0.005",
+    "domain": "Computer Vision Formats",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/convert_bounding_box_format",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "generate_lorem_ipsum_structured": {
+    "name": "generate_lorem_ipsum_structured",
+    "description": "Generates token-controlled semantic dummy text (paragraphs, titles, list items, emails) for UI mocking.",
+    "price_usdc": "0.005",
+    "domain": "Content Generation & Prototyping",
+    "category": "Data / LLM",
+    "path": "ecosystem/tools/generate_lorem_ipsum_structured",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "calculate_spherical_polygon_area": {
+    "name": "calculate_spherical_polygon_area",
+    "description": "Computes geodesic surface area (km\u00b2 / acres) of arbitrary latitude/longitude boundary polygons without planar distortions.",
+    "price_usdc": "0.015",
+    "domain": "Geospatial GIS Computing",
+    "category": "Finance / Math",
+    "path": "ecosystem/tools/calculate_spherical_polygon_area",
+    "deployedAt": "2026-09-16 07:12:18",
+    "status": "active"
+  },
+  "gltf_draco_mesh_quantizer": {
+    "name": "gltf_draco_mesh_quantizer",
+    "description": "Applies Draco geometry quantization and Meshopt encoding to glTF/GLB assets, reducing file payload by up to 85% for real-time spatial streaming.",
+    "price_usdc": "0.035",
+    "domain": "3D Mesh Compression",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/gltf_draco_mesh_quantizer",
+    "deployedAt": "2026-09-16 07:21:53",
+    "status": "active"
+  },
+  "mesh_convex_hull_quickhull": {
+    "name": "mesh_convex_hull_quickhull",
+    "description": "Computes exact 3D convex collision hulls from arbitrary unorganized vertex clouds via Quickhull for Cannon.js, Rapier, and PhysX runtimes.",
+    "price_usdc": "0.030",
+    "domain": "3D Physics & Collision",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/mesh_convex_hull_quickhull",
+    "deployedAt": "2026-09-16 07:21:53",
+    "status": "active"
+  },
+  "pointcloud_las_to_ply_filter": {
+    "name": "pointcloud_las_to_ply_filter",
+    "description": "Streams and decodes dense LIDAR LAS/LAZ files, eliminating statistical noise outliers and exporting normalized colored PLY point clouds.",
+    "price_usdc": "0.035",
+    "domain": "LIDAR & Point Cloud GIS",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/pointcloud_las_to_ply_filter",
+    "deployedAt": "2026-09-16 07:21:53",
+    "status": "active"
+  },
+  "obj_mtl_to_glb_packer": {
+    "name": "obj_mtl_to_glb_packer",
+    "description": "Compiles legacy Wavefront OBJ geometry, MTL material declarations, and associated texture maps into a single binary self-contained GLB file.",
+    "price_usdc": "0.025",
+    "domain": "3D Container Packaging",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/obj_mtl_to_glb_packer",
+    "deployedAt": "2026-09-16 07:21:53",
+    "status": "active"
+  },
+  "camera_intrinsics_projection_matrix": {
+    "name": "camera_intrinsics_projection_matrix",
+    "description": "Computes 4x4 perspective and orthographic camera projection matrices, mapping FOV, focal length, sensor dimensions, and near/far clipping planes.",
+    "price_usdc": "0.020",
+    "domain": "Computer Vision & Optics",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/camera_intrinsics_projection_matrix",
+    "deployedAt": "2026-09-16 07:21:53",
+    "status": "active"
+  },
+  "bounding_volume_hierarchy_builder": {
+    "name": "bounding_volume_hierarchy_builder",
+    "description": "Generates an Axis-Aligned Bounding Box (AABB) Bounding Volume Hierarchy (BVH) with Surface Area Heuristic (SAH) splits for sub-millisecond ray queries.",
+    "price_usdc": "0.040",
+    "domain": "Spatial Acceleration",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/bounding_volume_hierarchy_builder",
+    "deployedAt": "2026-09-16 07:21:53",
+    "status": "active"
+  },
+  "quaternion_slerp_interpolator": {
+    "name": "quaternion_slerp_interpolator",
+    "description": "Gimbal-lock-free Spherical Linear Interpolation (SLERP) and rotation transforms between unit Quaternions, Euler angles, and 3x3 rotation matrices.",
+    "price_usdc": "0.020",
+    "domain": "Kinematics & Orientation",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/quaternion_slerp_interpolator",
+    "deployedAt": "2026-09-16 07:21:53",
+    "status": "active"
+  },
+  "gaussian_splat_ply_validator": {
+    "name": "gaussian_splat_ply_validator",
+    "description": "Validates 3D Gaussian Splatting (3DGS) PLY datasets, verifying spherical harmonics degree, covariance matrix positive semi-definiteness, and opacity bounds.",
+    "price_usdc": "0.045",
+    "domain": "Neural Radiance & 3DGS",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/gaussian_splat_ply_validator",
+    "deployedAt": "2026-09-16 07:21:53",
+    "status": "active"
+  },
+  "geospatial_geojson_to_3d_extrusion": {
+    "name": "geospatial_geojson_to_3d_extrusion",
+    "description": "Translates 2D GeoJSON polygon building footprints into extruded 3D geometry with roof caps, elevation offsets, and geocentric coordinate anchoring.",
+    "price_usdc": "0.030",
+    "domain": "GIS & Digital Twins",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/geospatial_geojson_to_3d_extrusion",
+    "deployedAt": "2026-09-16 07:21:53",
+    "status": "active"
+  },
+  "uv_unwrap_island_packer": {
+    "name": "uv_unwrap_island_packer",
+    "description": "Packs 3D texture coordinate UV islands into a normalized 0-1 atlas with zero overlapping polygons, rotation optimization, and gutter bleed margins.",
+    "price_usdc": "0.035",
+    "domain": "Texture Mapping & Shading",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/uv_unwrap_island_packer",
+    "deployedAt": "2026-09-16 07:21:53",
+    "status": "active"
+  },
+  "mesh_decimate_quadric_simplifier": {
+    "name": "mesh_decimate_quadric_simplifier",
+    "description": "Simplifies dense 3D meshes using Quadric Error Metrics (QEM), reducing polycounts by 50-90% while preserving silhouettes, UV borders, and vertex normals.",
+    "price_usdc": "0.040",
+    "domain": "Polygon Optimization",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/mesh_decimate_quadric_simplifier",
+    "deployedAt": "2026-09-16 07:21:53",
+    "status": "active"
+  },
+  "voxelize_mesh_grid_generator": {
+    "name": "voxelize_mesh_grid_generator",
+    "description": "Converts watertight 3D triangle meshes into 3D binary occupancy or RGBA colored voxel grids with configurable bounding grid dimensions.",
+    "price_usdc": "0.035",
+    "domain": "Volumetric & Simulation",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/voxelize_mesh_grid_generator",
+    "deployedAt": "2026-09-16 07:21:53",
+    "status": "active"
+  },
+  "pbr_material_texture_normalizer": {
+    "name": "pbr_material_texture_normalizer",
+    "description": "Audits and packs Physically-Based Rendering (PBR) textures into standardized ORM channels (R: Occlusion, G: Roughness, B: Metalness) with sRGB validation.",
+    "price_usdc": "0.025",
+    "domain": "Shading & Material Science",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/pbr_material_texture_normalizer",
+    "deployedAt": "2026-09-16 07:21:53",
+    "status": "active"
+  },
+  "raycast_triangle_intersection_fast": {
+    "name": "raycast_triangle_intersection_fast",
+    "description": "Executes M\u00f6ller-Trumbore ray-triangle intersection tests, determining intersection distance $t$, barycentric coordinates $(u, v)$, and surface normal orientation.",
+    "price_usdc": "0.020",
+    "domain": "Raytracing & Intersection",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/raycast_triangle_intersection_fast",
+    "deployedAt": "2026-09-16 07:21:53",
+    "status": "active"
+  },
+  "depth_to_normal_map_generator": {
+    "name": "depth_to_normal_map_generator",
+    "description": "Synthesizes 16-bit RGB tangent-space normal maps from grayscale depth buffers or elevation heightmaps using Sobel spatial gradient convolution.",
+    "price_usdc": "0.025",
+    "domain": "Texture Generation",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/depth_to_normal_map_generator",
+    "deployedAt": "2026-09-16 07:21:53",
+    "status": "active"
+  },
+  "spline_catmull_rom_3d_interpolator": {
+    "name": "spline_catmull_rom_3d_interpolator",
+    "description": "Calculates smooth $C^1$-continuous 3D flight paths, motion trajectories, and camera rails through ordered 3D control points with centripetal parameterization.",
+    "price_usdc": "0.020",
+    "domain": "Trajectory & Camera Paths",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/spline_catmull_rom_3d_interpolator",
+    "deployedAt": "2026-09-16 07:21:53",
+    "status": "active"
+  },
+  "signed_distance_field_sdf_baker": {
+    "name": "signed_distance_field_sdf_baker",
+    "description": "Evaluates 3D Signed Distance Fields (SDF) across geometric primitives (spheres, boxes, tori) and executes constructive solid geometry (CSG) smooth booleans.",
+    "price_usdc": "0.030",
+    "domain": "Implicit Geometry & CSG",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/signed_distance_field_sdf_baker",
+    "deployedAt": "2026-09-16 07:21:53",
+    "status": "active"
+  },
+  "geodetic_wgs84_to_ecef_cartesian": {
+    "name": "geodetic_wgs84_to_ecef_cartesian",
+    "description": "Converts geographic coordinates (WGS84 Latitude, Longitude, Ellipsoidal Height) to Earth-Centered Earth-Fixed (ECEF) and local East-North-Up (ENU) 3D vectors.",
+    "price_usdc": "0.020",
+    "domain": "Geodesy & Planetary GIS",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/geodetic_wgs84_to_ecef_cartesian",
+    "deployedAt": "2026-09-16 07:21:53",
+    "status": "active"
+  },
+  "mesh_watertight_manifold_auditor": {
+    "name": "mesh_watertight_manifold_auditor",
+    "description": "Audits 3D geometry for non-manifold edges, T-junctions, duplicate vertices, flipped surface normals, and boundary holes before simulation or 3D fabrication.",
+    "price_usdc": "0.035",
+    "domain": "Geometry QA & 3D Print",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/mesh_watertight_manifold_auditor",
+    "deployedAt": "2026-09-16 07:21:53",
+    "status": "active"
+  },
+  "frustum_culling_occlusion_tester": {
+    "name": "frustum_culling_occlusion_tester",
+    "description": "Tests camera view frustum planes against 3D bounding spheres and Oriented Bounding Boxes (OBB) for spatial level-of-detail (LOD) streaming.",
+    "price_usdc": "0.025",
+    "domain": "Scene Graph Optimization",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/frustum_culling_occlusion_tester",
+    "deployedAt": "2026-09-16 07:21:53",
+    "status": "active"
+  },
+  "pointcloud_icp_rigid_registration": {
+    "name": "pointcloud_icp_rigid_registration",
+    "description": "Iterative Closest Point (ICP) algorithm aligning two unorganized 3D point clouds with robust Tukey loss weighting to filter noisy scan outliers.",
+    "price_usdc": "0.045",
+    "domain": "Spatial Alignment & Robotics",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/pointcloud_icp_rigid_registration",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "mesh_boolean_csg_exact": {
+    "name": "mesh_boolean_csg_exact",
+    "description": "Exact arbitrary-precision constructive solid geometry (CSG) mesh boolean operations (Union, Difference, Intersection) that resolve coplanar facets without crashing.",
+    "price_usdc": "0.050",
+    "domain": "Exact Geometric Booleans",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/mesh_boolean_csg_exact",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "photogrammetry_colmap_pose_matcher": {
+    "name": "photogrammetry_colmap_pose_matcher",
+    "description": "Validates camera extrinsic poses and epipolar geometric constraints from multi-view image sets, filtering false parallax feature correspondences.",
+    "price_usdc": "0.045",
+    "domain": "Photogrammetry & Structure-from-Motion",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/photogrammetry_colmap_pose_matcher",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "depth_anything_disparity_normalizer": {
+    "name": "depth_anything_disparity_normalizer",
+    "description": "Normalizes raw affine-invariant and metric disparity depth maps, eliminating infinity bleeding and boundary halo artifacts before 3D reprojection.",
+    "price_usdc": "0.035",
+    "domain": "Depth Estimation & Vision",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/depth_anything_disparity_normalizer",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "nerf_synthetic_view_generator": {
+    "name": "nerf_synthetic_view_generator",
+    "description": "Computes camera viewing rays and near/far ray bounds for novel viewpoint synthesis in Neural Radiance Field (NeRF) pipelines with zero floating point drift.",
+    "price_usdc": "0.050",
+    "domain": "Neural Radiance & View Synthesis",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/nerf_synthetic_view_generator",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "mesh_subdivision_loop_surface": {
+    "name": "mesh_subdivision_loop_surface",
+    "description": "Loop subdivision surface refinement for triangular 3D meshes with boundary curve preservation, crease edge weighting, and normal continuity.",
+    "price_usdc": "0.035",
+    "domain": "Smooth Surface Modeling",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/mesh_subdivision_loop_surface",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "navmesh_recast_baking_validator": {
+    "name": "navmesh_recast_baking_validator",
+    "description": "Generates and audits Recast 3D navigation meshes for autonomous agents, checking maximum slope climbing, step-height clearance, and unreachable islands.",
+    "price_usdc": "0.040",
+    "domain": "AI Pathfinding & Navigation",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/navmesh_recast_baking_validator",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "rigid_body_inertia_tensor_calc": {
+    "name": "rigid_body_inertia_tensor_calc",
+    "description": "Calculates exact 3x3 inertia tensors, center of mass, and principal axes of rotation from arbitrary closed watertight 3D meshes using surface integrals.",
+    "price_usdc": "0.030",
+    "domain": "Physics & Dynamic Simulation",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/rigid_body_inertia_tensor_calc",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "sdf_mesh_marching_cubes_extractor": {
+    "name": "sdf_mesh_marching_cubes_extractor",
+    "description": "Extracts smooth watertight polygon meshes from volumetric 3D Signed Distance Fields using adaptive dual contouring and Marching Cubes.",
+    "price_usdc": "0.045",
+    "domain": "Volumetric Isosurface Extraction",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/sdf_mesh_marching_cubes_extractor",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "lidar_ground_plane_ransac_filter": {
+    "name": "lidar_ground_plane_ransac_filter",
+    "description": "RANSAC plane segmentation isolating ground terrain from foreground obstacles and vehicles in dense unorganized LIDAR point clouds.",
+    "price_usdc": "0.035",
+    "domain": "Point Cloud Segmentation",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/lidar_ground_plane_ransac_filter",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "skeleton_rig_gltf_skin_validator": {
+    "name": "skeleton_rig_gltf_skin_validator",
+    "description": "Audits glTF skeletal skinning data: identifies non-normalized joint weights (>1.0), missing inverse bind matrices, and cyclic joint hierarchy loops.",
+    "price_usdc": "0.040",
+    "domain": "Skeletal Animation & Rigging",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/skeleton_rig_gltf_skin_validator",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "octree_spatial_partition_query": {
+    "name": "octree_spatial_partition_query",
+    "description": "Dynamic 3D Octree builder delivering O(log N) radius range queries and k-nearest neighbors (k-NN) across millions of 3D spatial points.",
+    "price_usdc": "0.030",
+    "domain": "Spatial Indexing & Query",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/octree_spatial_partition_query",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "mesh_curvature_gaussian_mean_analyzer": {
+    "name": "mesh_curvature_gaussian_mean_analyzer",
+    "description": "Computes per-vertex principal, Gaussian, and Mean surface curvatures on 3D meshes, highlighting high-frequency feature edges, ridges, and valleys.",
+    "price_usdc": "0.035",
+    "domain": "Differential Geometry",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/mesh_curvature_gaussian_mean_analyzer",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "robot_arm_inverse_kinematics_ccd": {
+    "name": "robot_arm_inverse_kinematics_ccd",
+    "description": "Cyclic Coordinate Descent (CCD) and FABRIK solver computing 6-DOF robotic manipulator joint angles with strict joint-angle limit enforcement.",
+    "price_usdc": "0.040",
+    "domain": "Robotics & Kinematics",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/robot_arm_inverse_kinematics_ccd",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "spherical_harmonic_lighting_baker": {
+    "name": "spherical_harmonic_lighting_baker",
+    "description": "Projects 360 HDRI environment maps into 9-coefficient (L2) Spherical Harmonics for zero-cost real-time ambient diffuse irradiance calculation.",
+    "price_usdc": "0.035",
+    "domain": "Image-Based Lighting & Rendering",
+    "category": "Spatial / 3D",
+    "path": "ecosystem/tools/spherical_harmonic_lighting_baker",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "zk_snark_groth16_proof_verifier": {
+    "name": "zk_snark_groth16_proof_verifier",
+    "description": "Verifies off-chain zk-SNARK Groth16 cryptographic proofs over the BN254/alt_bn128 pairing curve, guaranteeing proof validity before gas-expensive on-chain calls.",
+    "price_usdc": "0.050",
+    "domain": "Zero-Knowledge Cryptography",
+    "category": "Web3",
+    "path": "ecosystem/tools/zk_snark_groth16_proof_verifier",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "mev_sandwich_risk_simulator": {
+    "name": "mev_sandwich_risk_simulator",
+    "description": "Simulates pending swaps against Uniswap v3/v4 tick liquidity to compute exact MEV sandwich vulnerability, maximum extractable value, and safe slippage limits.",
+    "price_usdc": "0.045",
+    "domain": "MEV & Liquidity Protection",
+    "category": "Web3",
+    "path": "ecosystem/tools/mev_sandwich_risk_simulator",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "smart_contract_reentrancy_auditor": {
+    "name": "smart_contract_reentrancy_auditor",
+    "description": "Symbolic execution analyzer scanning Solidity ASTs for cross-function reentrancy, check-effects-interaction violations, and read-only reentrancy in view functions.",
+    "price_usdc": "0.050",
+    "domain": "Smart Contract Vulnerability",
+    "category": "Security",
+    "path": "ecosystem/tools/smart_contract_reentrancy_auditor",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "eip712_typed_data_hasher": {
+    "name": "eip712_typed_data_hasher",
+    "description": "RFC-compliant EIP-712 typed structured data hasher that eliminates domain separator discrepancies, type string misordering, and nested array padding bugs.",
+    "price_usdc": "0.030",
+    "domain": "Cryptographic Signatures",
+    "category": "Web3",
+    "path": "ecosystem/tools/eip712_typed_data_hasher",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "uniswap_v3_tick_math_precise": {
+    "name": "uniswap_v3_tick_math_precise",
+    "description": "Arbitrary-precision Q64.96 fixed-point math calculator for Uniswap v3 square root price $(\\sqrt{P})$, tick-to-price conversion, and exact liquidity fee compounding.",
+    "price_usdc": "0.035",
+    "domain": "DeFi Fixed-Point Math",
+    "category": "Web3",
+    "path": "ecosystem/tools/uniswap_v3_tick_math_precise",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "erc4337_userop_gas_estimator": {
+    "name": "erc4337_userop_gas_estimator",
+    "description": "Computes exact verificationGasLimit, callGasLimit, and preVerificationGas for ERC-4337 Account Abstraction UserOperations with paymaster gas safety overhead.",
+    "price_usdc": "0.040",
+    "domain": "Account Abstraction & 4337",
+    "category": "Web3",
+    "path": "ecosystem/tools/erc4337_userop_gas_estimator",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "evm_storage_slot_layout_calculator": {
+    "name": "evm_storage_slot_layout_calculator",
+    "description": "Calculates exact 32-byte EVM storage slots for complex Solidity state variables (nested mappings, dynamic arrays, packed structs) according to ABI specification.",
+    "price_usdc": "0.035",
+    "domain": "Smart Contract Internals",
+    "category": "Web3",
+    "path": "ecosystem/tools/evm_storage_slot_layout_calculator",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "merkle_mountain_range_mmr_prover": {
+    "name": "merkle_mountain_range_mmr_prover",
+    "description": "Constructs and verifies append-only Merkle Mountain Range (MMR) proofs for lightweight blockchain cross-chain block headers and rolling state proofs.",
+    "price_usdc": "0.045",
+    "domain": "Cryptographic Data Structures",
+    "category": "Web3",
+    "path": "ecosystem/tools/merkle_mountain_range_mmr_prover",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "solidity_assembly_yul_sanitizer": {
+    "name": "solidity_assembly_yul_sanitizer",
+    "description": "Scans inline Yul assembly in Solidity smart contracts for uninitialized memory pointer bugs, 64-bit clean memory corruption, and memory expansion gas bombs.",
+    "price_usdc": "0.040",
+    "domain": "Assembly & Bytecode Security",
+    "category": "Security",
+    "path": "ecosystem/tools/solidity_assembly_yul_sanitizer",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "flashloan_arbitrage_profit_calculator": {
+    "name": "flashloan_arbitrage_profit_calculator",
+    "description": "Calculates net arbitrage profit for multi-hop flashloans across Base L2 DEXes, factoring pool fee tiers, price impact, loan premium (0.09%), and gas burnt.",
+    "price_usdc": "0.045",
+    "domain": "DeFi Arbitrage Simulation",
+    "category": "Web3",
+    "path": "ecosystem/tools/flashloan_arbitrage_profit_calculator",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "evm_trace_call_revert_debugger": {
+    "name": "evm_trace_call_revert_debugger",
+    "description": "Parses Geth/Nethermind debug_traceTransaction call trees, pinpointing the exact depth, instruction opcode, sub-contract, and revert message of failed calls.",
+    "price_usdc": "0.045",
+    "domain": "EVM Execution Diagnostics",
+    "category": "Web3",
+    "path": "ecosystem/tools/evm_trace_call_revert_debugger",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "token_vesting_cliff_schedule_builder": {
+    "name": "token_vesting_cliff_schedule_builder",
+    "description": "Computes deterministic per-second token release schedules with cliff periods, linear unlocking, revocability triggers, and truncation rounding protection.",
+    "price_usdc": "0.030",
+    "domain": "Tokenomics & Vesting",
+    "category": "Finance / Math",
+    "path": "ecosystem/tools/token_vesting_cliff_schedule_builder",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "eip1271_smart_contract_signature_verifier": {
+    "name": "eip1271_smart_contract_signature_verifier",
+    "description": "Verifies EIP-1271 signatures on smart contract wallets (Safe, Argent, Kernel, Biconomy) using eth_staticcall validation with gas safeguards.",
+    "price_usdc": "0.035",
+    "domain": "Contract Wallets & Multisig",
+    "category": "Web3",
+    "path": "ecosystem/tools/eip1271_smart_contract_signature_verifier",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "cross_chain_wormhole_vaa_parser": {
+    "name": "cross_chain_wormhole_vaa_parser",
+    "description": "Parses and audits Wormhole Verified Action Approvals (VAAs), validating guardian committee quorum threshold signatures, emitter chain IDs, and payloads.",
+    "price_usdc": "0.040",
+    "domain": "Cross-Chain Bridges",
+    "category": "Web3",
+    "path": "ecosystem/tools/cross_chain_wormhole_vaa_parser",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "base_l2_blob_gas_price_projector": {
+    "name": "base_l2_blob_gas_price_projector",
+    "description": "Evaluates EIP-4844 blob gas fee dynamics and Base L2 sequencing costs, projecting optimal block inclusion timing for transaction batch settlement.",
+    "price_usdc": "0.035",
+    "domain": "Base L2 Scaling & Data Availability",
+    "category": "Web3",
+    "path": "ecosystem/tools/base_l2_blob_gas_price_projector",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "pdf_table_stream_extractor_resilient": {
+    "name": "pdf_table_stream_extractor_resilient",
+    "description": "Extracts multi-page financial tables from complex PDFs with merged cells, ruled/unruled borders, and wrapped column baselines without misaligning cells.",
+    "price_usdc": "0.040",
+    "domain": "Document Parsing & FinTech",
+    "category": "Data / LLM",
+    "path": "ecosystem/tools/pdf_table_stream_extractor_resilient",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "ocr_bounding_box_dewarp_repair": {
+    "name": "ocr_bounding_box_dewarp_repair",
+    "description": "Performs geometric perspective dewarping for photographed and scanned paper documents, correcting camera skew, tilt, and binding curvature.",
+    "price_usdc": "0.035",
+    "domain": "Computer Vision & OCR",
+    "category": "Data / LLM",
+    "path": "ecosystem/tools/ocr_bounding_box_dewarp_repair",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "stealth_tls_fingerprint_mimic": {
+    "name": "stealth_tls_fingerprint_mimic",
+    "description": "Synthesizes JA3 and JA4 TLS Client Hello fingerprint configurations matching genuine Google Chrome and Apple Safari builds, preventing bot blocking.",
+    "price_usdc": "0.045",
+    "domain": "Anti-Fingerprinting & Scraping",
+    "category": "Networking",
+    "path": "ecosystem/tools/stealth_tls_fingerprint_mimic",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "html_clean_boilerpipe_extractor": {
+    "name": "html_clean_boilerpipe_extractor",
+    "description": "Strips headers, footers, popups, and ad tracking scripts from web pages using heuristic text density (Boilerpipe algorithm) to extract pure article text.",
+    "price_usdc": "0.030",
+    "domain": "Web Scraping & LLM Ingestion",
+    "category": "Data / LLM",
+    "path": "ecosystem/tools/html_clean_boilerpipe_extractor",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "docx_document_xml_sanitizer": {
+    "name": "docx_document_xml_sanitizer",
+    "description": "Unpacks and parses Microsoft Office DOCX XML packages safely, eliminating XXE vulnerabilities, malicious VBA macros, and hidden remote tracking web bugs.",
+    "price_usdc": "0.035",
+    "domain": "Document Security",
+    "category": "Security",
+    "path": "ecosystem/tools/docx_document_xml_sanitizer",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "pdf_form_xfa_acroform_flattener": {
+    "name": "pdf_form_xfa_acroform_flattener",
+    "description": "Flattens interactive AcroForms and dynamic XML XFA forms into static, immutable PDF pages with 100% field content preservation for optical validation.",
+    "price_usdc": "0.035",
+    "domain": "Document Transformation",
+    "category": "Data / LLM",
+    "path": "ecosystem/tools/pdf_form_xfa_acroform_flattener",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "anti_scraping_honeypot_detector": {
+    "name": "anti_scraping_honeypot_detector",
+    "description": "Scans DOM elements and CSS rules for hidden bot honeypots (CSS `display:none`, `visibility:hidden`, 1x1 invisible pixels, off-screen links) designed to ban scrapers.",
+    "price_usdc": "0.040",
+    "domain": "Anti-Scraping Defense",
+    "category": "Security",
+    "path": "ecosystem/tools/anti_scraping_honeypot_detector",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "multimodal_image_exif_redactor": {
+    "name": "multimodal_image_exif_redactor",
+    "description": "Strips GPS coordinates, camera serial numbers, thumbnail caches, and creator PII from image files before sending them to third-party vision models.",
+    "price_usdc": "0.025",
+    "domain": "Privacy & Metadata Sanitization",
+    "category": "Security",
+    "path": "ecosystem/tools/multimodal_image_exif_redactor",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "resilient_cookie_jar_session_sync": {
+    "name": "resilient_cookie_jar_session_sync",
+    "description": "RFC-6265 compliant cookie jar engine managing cross-domain session tokens, SameSite policies, expiration schedules, and proxy synchronization.",
+    "price_usdc": "0.030",
+    "domain": "Session Management",
+    "category": "Networking",
+    "path": "ecosystem/tools/resilient_cookie_jar_session_sync",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "pdf_page_rasterizer_highres": {
+    "name": "pdf_page_rasterizer_highres",
+    "description": "Rasterizes complex vector PDF pages into crisp, 300 DPI antialiased WebP/PNG images optimized for multi-modal vision LLMs with zero text clipping.",
+    "price_usdc": "0.035",
+    "domain": "Document Rendering",
+    "category": "Media",
+    "path": "ecosystem/tools/pdf_page_rasterizer_highres",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "streaming_jsonlines_validator": {
+    "name": "streaming_jsonlines_validator",
+    "description": "Streams gigabyte-scale JSON Lines (JSONL) datasets, auto-repairing truncated strings, unescaped newlines, trailing commas, and encoding glitches.",
+    "price_usdc": "0.025",
+    "domain": "Dataset Hygiene",
+    "category": "Data / LLM",
+    "path": "ecosystem/tools/streaming_jsonlines_validator",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "epub_ebook_structure_unpacker": {
+    "name": "epub_ebook_structure_unpacker",
+    "description": "Unpacks EPUB digital publications, resolving container XML, spine reading order, and table-of-contents into clean linear markdown chapters.",
+    "price_usdc": "0.030",
+    "domain": "Digital Publishing",
+    "category": "Data / LLM",
+    "path": "ecosystem/tools/epub_ebook_structure_unpacker",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "audio_transcription_vtt_aligner": {
+    "name": "audio_transcription_vtt_aligner",
+    "description": "Aligns raw audio speech transcripts into word-level timestamps in WebVTT/SRT format, eliminating clock drift, pause overlaps, and boundary errors.",
+    "price_usdc": "0.035",
+    "domain": "Audio & Speech Processing",
+    "category": "Media",
+    "path": "ecosystem/tools/audio_transcription_vtt_aligner",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "video_keyframe_scene_cut_detector": {
+    "name": "video_keyframe_scene_cut_detector",
+    "description": "Detects video scene cut transitions using color histogram and motion delta differences, extracting representative keyframes without full re-encoding.",
+    "price_usdc": "0.040",
+    "domain": "Video Analytics",
+    "category": "Media",
+    "path": "ecosystem/tools/video_keyframe_scene_cut_detector",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "unstructured_log_regex_auto_parser": {
+    "name": "unstructured_log_regex_auto_parser",
+    "description": "Infers strict regex extraction patterns and field typings from noisy multiline server log samples, turning messy logs into structured JSON rows.",
+    "price_usdc": "0.030",
+    "domain": "DevOps & Log Intelligence",
+    "category": "Data / LLM",
+    "path": "ecosystem/tools/unstructured_log_regex_auto_parser",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "wasm_bytecode_disassembler_auditor": {
+    "name": "wasm_bytecode_disassembler_auditor",
+    "description": "Disassembles WebAssembly (.wasm) binary modules to textual WAT format, auditing for unauthorized host imports and out-of-bounds memory accesses.",
+    "price_usdc": "0.045",
+    "domain": "WebAssembly Security",
+    "category": "Security",
+    "path": "ecosystem/tools/wasm_bytecode_disassembler_auditor",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "regex_redos_exponential_scanner": {
+    "name": "regex_redos_exponential_scanner",
+    "description": "Audits regular expressions for catastrophic polynomial and exponential backtracking (ReDoS) vulnerabilities using NFA/DFA cycle decomposition.",
+    "price_usdc": "0.035",
+    "domain": "Regex Security",
+    "category": "Security",
+    "path": "ecosystem/tools/regex_redos_exponential_scanner",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "elf_pe_binary_header_security_check": {
+    "name": "elf_pe_binary_header_security_check",
+    "description": "Inspects Linux ELF and Windows PE executable headers for ASLR, DEP/NX, Stack Canaries, and RELRO exploit mitigations before sandbox execution.",
+    "price_usdc": "0.040",
+    "domain": "Binary Forensics",
+    "category": "Security",
+    "path": "ecosystem/tools/elf_pe_binary_header_security_check",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "prompt_injection_jailbreak_classifier": {
+    "name": "prompt_injection_jailbreak_classifier",
+    "description": "High-speed deterministic classifier detecting indirect prompt injections, delimiter hijacking, and system role impersonation attacks in user inputs.",
+    "price_usdc": "0.045",
+    "domain": "LLM Defense & Prompt Security",
+    "category": "Security",
+    "path": "ecosystem/tools/prompt_injection_jailbreak_classifier",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "secrets_entropy_scanner": {
+    "name": "secrets_entropy_scanner",
+    "description": "Shannon entropy and pattern analyzer scanning source code for leaked private keys, AWS access secrets, JWTs, and database connection strings.",
+    "price_usdc": "0.030",
+    "domain": "Secret Detection & Hygiene",
+    "category": "Security",
+    "path": "ecosystem/tools/secrets_entropy_scanner",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "typescript_ast_type_contract_verifier": {
+    "name": "typescript_ast_type_contract_verifier",
+    "description": "Audits TypeScript ASTs for implicit `any` escapes, unsafe type assertions (`as unknown as T`), and unhandled Promise rejections.",
+    "price_usdc": "0.035",
+    "domain": "Static Analysis & Contracts",
+    "category": "Code Quality",
+    "path": "ecosystem/tools/typescript_ast_type_contract_verifier",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "linux_seccomp_bpf_filter_generator": {
+    "name": "linux_seccomp_bpf_filter_generator",
+    "description": "Generates minimal Seccomp BPF syscall filter profiles for sandboxing untrusted agent processes, blocking ptrace, fork, and raw socket creation.",
+    "price_usdc": "0.040",
+    "domain": "Sandbox Isolation & Linux Kernel",
+    "category": "Security",
+    "path": "ecosystem/tools/linux_seccomp_bpf_filter_generator",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "jwt_token_cryptographic_validator": {
+    "name": "jwt_token_cryptographic_validator",
+    "description": "Validates JSON Web Tokens (JWT) strictly against algorithm confusion attacks (e.g. `none` algorithm exploit, HMAC vs RSA key confusion).",
+    "price_usdc": "0.025",
+    "domain": "Authentication & JWT",
+    "category": "Security",
+    "path": "ecosystem/tools/jwt_token_cryptographic_validator",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "sql_ast_sqli_taint_analyzer": {
+    "name": "sql_ast_sqli_taint_analyzer",
+    "description": "Parses SQL query ASTs to verify parameterized binding, flagging raw string concatenations that lead to second-order SQL injection vulnerabilities.",
+    "price_usdc": "0.040",
+    "domain": "Database Security & AST",
+    "category": "Security",
+    "path": "ecosystem/tools/sql_ast_sqli_taint_analyzer",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "python_ast_sandbox_escape_detector": {
+    "name": "python_ast_sandbox_escape_detector",
+    "description": "Audits Python ASTs for dangerous builtins, `__subclasses__` gadget chains, `importlib`, and bytecode compilation tricks used in sandbox escapes.",
+    "price_usdc": "0.045",
+    "domain": "Python Runtime Security",
+    "category": "Security",
+    "path": "ecosystem/tools/python_ast_sandbox_escape_detector",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "cors_policy_preflight_misconfig_checker": {
+    "name": "cors_policy_preflight_misconfig_checker",
+    "description": "Audits CORS response headers for dangerous wildcards with credentials (`Access-Control-Allow-Origin: *` + `Credentials: true`).",
+    "price_usdc": "0.025",
+    "domain": "Web Application Security",
+    "category": "Security",
+    "path": "ecosystem/tools/cors_policy_preflight_misconfig_checker",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "graphql_schema_complexity_analyzer": {
+    "name": "graphql_schema_complexity_analyzer",
+    "description": "Calculates depth and complexity cost for GraphQL queries to protect APIs from deeply nested recursive denial-of-service queries.",
+    "price_usdc": "0.035",
+    "domain": "API Hardening & GraphQL",
+    "category": "Security",
+    "path": "ecosystem/tools/graphql_schema_complexity_analyzer",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "git_commit_pgp_signature_verifier": {
+    "name": "git_commit_pgp_signature_verifier",
+    "description": "Verifies OpenPGP and SSH cryptographic signatures on Git commits and tags against verified maintainer keyrings to prevent supply-chain attacks.",
+    "price_usdc": "0.030",
+    "domain": "Supply Chain Security",
+    "category": "Compliance",
+    "path": "ecosystem/tools/git_commit_pgp_signature_verifier",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "memory_leak_heap_snapshot_differ": {
+    "name": "memory_leak_heap_snapshot_differ",
+    "description": "Diffs V8 heap snapshots to isolate detached DOM elements, uncleared event listeners, and uncollected closures causing long-running agent OOM crashes.",
+    "price_usdc": "0.045",
+    "domain": "Runtime Performance & V8",
+    "category": "Code Quality",
+    "path": "ecosystem/tools/memory_leak_heap_snapshot_differ",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "semgrep_custom_rule_syntax_validator": {
+    "name": "semgrep_custom_rule_syntax_validator",
+    "description": "Lints and validates custom Semgrep YAML pattern rules, verifying AST expression patterns, metavariable bindings, and engine performance constraints.",
+    "price_usdc": "0.035",
+    "domain": "Static Analysis Rule Linter",
+    "category": "Code Quality",
+    "path": "ecosystem/tools/semgrep_custom_rule_syntax_validator",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "vector_embedding_cosine_hnsw_indexer": {
+    "name": "vector_embedding_cosine_hnsw_indexer",
+    "description": "Builds high-performance Hierarchical Navigable Small World (HNSW) vector graphs for sub-millisecond approximate nearest neighbor (ANN) retrieval.",
+    "price_usdc": "0.045",
+    "domain": "Vector Retrieval & Search",
+    "category": "Data / LLM",
+    "path": "ecosystem/tools/vector_embedding_cosine_hnsw_indexer",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "multi_agent_raft_consensus_leader_election": {
+    "name": "multi_agent_raft_consensus_leader_election",
+    "description": "Implements lightweight Raft distributed consensus protocol state transitions and randomized election timers for multi-agent swarm leader election.",
+    "price_usdc": "0.045",
+    "domain": "Distributed Swarm Consensus",
+    "category": "Autonomous Agents",
+    "path": "ecosystem/tools/multi_agent_raft_consensus_leader_election",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "crdt_json_state_sync_resolver": {
+    "name": "crdt_json_state_sync_resolver",
+    "description": "Conflict-free Replicated Data Type (CRDT) state engine merging concurrent agent state edits using Last-Write-Wins and Observed-Remove sets without locks.",
+    "price_usdc": "0.040",
+    "domain": "Conflict-Free State Sync",
+    "category": "Autonomous Agents",
+    "path": "ecosystem/tools/crdt_json_state_sync_resolver",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "semantic_cache_embedding_lookup": {
+    "name": "semantic_cache_embedding_lookup",
+    "description": "Vector similarity cache lookup matching incoming user prompts against cached answers within a strict cosine distance threshold to save LLM tokens.",
+    "price_usdc": "0.035",
+    "domain": "LLM Inference Cost Reduction",
+    "category": "Data / LLM",
+    "path": "ecosystem/tools/semantic_cache_embedding_lookup",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "agent_delegation_capability_token_issuer": {
+    "name": "agent_delegation_capability_token_issuer",
+    "description": "Issues cryptographically signed capability tokens (Macaroons/Biscuits) with caveat attenuation for delegating sub-tasks to downstream agents.",
+    "price_usdc": "0.035",
+    "domain": "Agent Authentication & Delegation",
+    "category": "Autonomous Agents",
+    "path": "ecosystem/tools/agent_delegation_capability_token_issuer",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "priority_dag_task_scheduler": {
+    "name": "priority_dag_task_scheduler",
+    "description": "Topological sort and critical-path scheduler for complex agent task Directed Acyclic Graphs (DAG) with concurrency bounds and dependency tracking.",
+    "price_usdc": "0.030",
+    "domain": "Workflow Graph Execution",
+    "category": "Autonomous Agents",
+    "path": "ecosystem/tools/priority_dag_task_scheduler",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "vector_quantization_product_quantizer": {
+    "name": "vector_quantization_product_quantizer",
+    "description": "Product Quantization (PQ) engine compressing 1536-dimensional floating point embeddings by 95% into discrete 8-bit codebook centroids.",
+    "price_usdc": "0.040",
+    "domain": "Vector Compression",
+    "category": "Data / LLM",
+    "path": "ecosystem/tools/vector_quantization_product_quantizer",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "llm_structured_json_schema_repair": {
+    "name": "llm_structured_json_schema_repair",
+    "description": "Enforces and repairs non-compliant, truncated, or hallucinated LLM JSON outputs to strictly conform to JSON Schema definitions with default fallbacks.",
+    "price_usdc": "0.035",
+    "domain": "LLM Output Reliability",
+    "category": "Data / LLM",
+    "path": "ecosystem/tools/llm_structured_json_schema_repair",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "distributed_deadlock_wait_for_graph": {
+    "name": "distributed_deadlock_wait_for_graph",
+    "description": "Detects distributed deadlocks across multi-agent shared resource locks using Tarjan cycle detection on active wait-for lock graphs.",
+    "price_usdc": "0.035",
+    "domain": "Concurrency & Distributed Systems",
+    "category": "Autonomous Agents",
+    "path": "ecosystem/tools/distributed_deadlock_wait_for_graph",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "text_similarity_bm25_hybrid_scorer": {
+    "name": "text_similarity_bm25_hybrid_scorer",
+    "description": "Computes hybrid Reciprocal Rank Fusion (RRF) scores combining BM25 sparse keyword matching with dense vector cosine similarity.",
+    "price_usdc": "0.030",
+    "domain": "Hybrid RAG Search",
+    "category": "Data / LLM",
+    "path": "ecosystem/tools/text_similarity_bm25_hybrid_scorer",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "agent_memory_summarization_compressor": {
+    "name": "agent_memory_summarization_compressor",
+    "description": "Compresses multi-turn agent conversation history into a structured semantic scratchpad, preserving key decisions and dropping conversational noise.",
+    "price_usdc": "0.040",
+    "domain": "Agent Context Management",
+    "category": "Autonomous Agents",
+    "path": "ecosystem/tools/agent_memory_summarization_compressor",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "token_bucket_hierarchical_rate_limiter": {
+    "name": "token_bucket_hierarchical_rate_limiter",
+    "description": "Hierarchical token bucket limiter enforcing multi-tier agent, tenant, and global request rate limits with smooth burst smoothing.",
+    "price_usdc": "0.030",
+    "domain": "Traffic Management & Quotas",
+    "category": "Autonomous Agents",
+    "path": "ecosystem/tools/token_bucket_hierarchical_rate_limiter",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "cross_agent_pubsub_message_router": {
+    "name": "cross_agent_pubsub_message_router",
+    "description": "Topic-based pub/sub message broker with guaranteed at-least-once delivery, dead-letter retries, and correlation trace IDs across sub-agents.",
+    "price_usdc": "0.030",
+    "domain": "Inter-Agent Messaging",
+    "category": "Autonomous Agents",
+    "path": "ecosystem/tools/cross_agent_pubsub_message_router",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "vector_embedding_dimension_reducer_pca": {
+    "name": "vector_embedding_dimension_reducer_pca",
+    "description": "Principal Component Analysis (PCA) dimension reduction compressing high-dimensional vectors down to 2D/3D while preserving >90% variance for visualization.",
+    "price_usdc": "0.035",
+    "domain": "Dimensionality Reduction",
+    "category": "Data / LLM",
+    "path": "ecosystem/tools/vector_embedding_dimension_reducer_pca",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "agent_heartbeat_liveness_monitor": {
+    "name": "agent_heartbeat_liveness_monitor",
+    "description": "Tracks agent worker heartbeat pings, detecting stalls or thread lockups within 3 seconds and triggering automated task redistribution.",
+    "price_usdc": "0.025",
+    "domain": "High Availability & Failover",
+    "category": "Autonomous Agents",
+    "path": "ecosystem/tools/agent_heartbeat_liveness_monitor",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "json_schema_to_typescript_type_generator": {
+    "name": "json_schema_to_typescript_type_generator",
+    "description": "Compiles JSON Schema definitions into clean, strongly typed TypeScript interfaces with JSDoc descriptions and optionality flags.",
+    "price_usdc": "0.030",
+    "domain": "Developer Tooling & Code Generation",
+    "category": "Code Quality",
+    "path": "ecosystem/tools/json_schema_to_typescript_type_generator",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "zero_knowledge_merkle_membership_proof": {
+    "name": "zero_knowledge_merkle_membership_proof",
+    "description": "Generates and verifies Poseidon hash-based Merkle tree membership proofs for private zero-knowledge credential verification without revealing identity.",
+    "price_usdc": "0.050",
+    "domain": "Zero-Knowledge Identity",
+    "category": "Web3",
+    "path": "ecosystem/tools/zero_knowledge_merkle_membership_proof",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "synthetic_dataset_bias_auditor": {
+    "name": "synthetic_dataset_bias_auditor",
+    "description": "Audits synthetic agent training data distributions for demographic bias, representation skew, and label drift across sensitive attribute categories.",
+    "price_usdc": "0.040",
+    "domain": "AI Safety & Governance",
+    "category": "Compliance",
+    "path": "ecosystem/tools/synthetic_dataset_bias_auditor",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "temporal_event_stream_deduplicator": {
+    "name": "temporal_event_stream_deduplicator",
+    "description": "Sliding-window Bloom filter and event deduplicator for high-throughput streaming agent logs, eliminating duplicate messages with zero disk I/O.",
+    "price_usdc": "0.030",
+    "domain": "High-Throughput Streaming",
+    "category": "Data / LLM",
+    "path": "ecosystem/tools/temporal_event_stream_deduplicator",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  },
+  "agentic_workflow_sla_cost_tracker": {
+    "name": "agentic_workflow_sla_cost_tracker",
+    "description": "Real-time token cost, latency SLA, and Base L2 micropayment accounting aggregator across multi-step autonomous agent workflows.",
+    "price_usdc": "0.035",
+    "domain": "Workflow Financial Accounting",
+    "category": "Finance / Math",
+    "path": "ecosystem/tools/agentic_workflow_sla_cost_tracker",
+    "deployedAt": "2026-09-16 07:25:07",
+    "status": "active"
+  }
+}

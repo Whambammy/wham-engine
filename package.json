@@ -1,0 +1,53 @@
+{
+  "name": "wham-engine",
+  "version": "1.0.0",
+  "description": "Unified Model Context Protocol (MCP) server suite of 200 deterministic micro-tools gated by x402 Base L2 micropayments.",
+  "main": "dist/ecosystem/hub_server.js",
+  "bin": {
+    "wham-engine": "./bin/cli.js"
+  },
+  "type": "module",
+  "files": [
+    "dist",
+    "bin",
+    "ecosystem/registry.json",
+    "ecosystem/catalog.json",
+    "smithery.yaml",
+    "smithery.json",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "node ./bin/cli.js",
+    "build": "tsc",
+    "dev": "ts-node ecosystem/hub_server.ts"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai-agents",
+    "base-l2",
+    "x402",
+    "micropayments",
+    "smithery",
+    "claude-desktop",
+    "cursor",
+    "windsurf"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Whambammy/wham-engine.git"
+  },
+  "homepage": "https://github.com/Whambammy/wham-engine#readme",
+  "author": "Whambammy",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.0",
+    "ethers": "^6.13.5",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "ts-node": "^10.9.2",
+    "@types/node": "^22.13.8"
+  }
+}

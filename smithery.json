@@ -1,0 +1,830 @@
+{
+  "$schema": "https://smithery.ai/schema/config.json",
+  "name": "wham-engine",
+  "displayName": "WHAM ENGINE // 200 Autonomous Micro-Tools",
+  "description": "Fleet of 200 deterministic micro-services for AI agents: AST auditing, Spatial/3D geometry processing, 2D/3D media pipelines, cryptographic Merkle proofs, resilient networking, fault-tolerant parsers, safe decompressors, and Base L2 micropayment verification.",
+  "command": "npx",
+  "args": [
+    "-y",
+    "wham-engine"
+  ],
+  "environment": {
+    "PAYMENT_WALLET": {
+      "type": "string",
+      "description": "Base L2 EVM payout wallet address to receive USDC micropayments",
+      "required": false,
+      "default": "0x9793E7269b3301893318dEa8338576Ba612F39B3"
+    },
+    "BASE_RPC_URL": {
+      "type": "string",
+      "description": "Base L2 RPC endpoint",
+      "required": false,
+      "default": "https://mainnet.base.org"
+    }
+  },
+  "capabilities": {
+    "tools": true
+  },
+  "tools": [
+    {
+      "name": "validate_code_syntax",
+      "description": "Validates syntax tree, calculates AST complexity, detects malicious code and dead paths for autonomous agents. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "optimize_vector_svg",
+      "description": "Strips bloated XML, cleans SVG nodes, converts paths for direct cutting, sublimation, and high-performance web graphics. (0.02 USDC on Base L2)"
+    },
+    {
+      "name": "optimize_3d_mesh",
+      "description": "Bakes normal maps, decimates polycount, Draco-compresses GLTF models for 3D web engines and spatial metaverses. (0.05 USDC on Base L2)"
+    },
+    {
+      "name": "verify_regulatory_rules",
+      "description": "Verifies sports equipment, compression thresholds, and tournament bracket integrity against deterministic rules. (0.015 USDC on Base L2)"
+    },
+    {
+      "name": "clean_markdown_for_llm",
+      "description": "Strips trackers and ads, converting raw HTML into token-optimized Markdown for dense LLM ingestion. (0.005 USDC on Base L2)"
+    },
+    {
+      "name": "generate_secure_hashcash",
+      "description": "Calculates and verifies verifiable SHA-256 Hashcash challenges for machine rate-limiting and anti-spam protocols. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "deterministic_calc_engine",
+      "description": "Precision floating-point and financial ledger arithmetic engine to bypass LLM calculation errors. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "detect_secrets_leak",
+      "description": "Scans code, logs, and payloads for leaked AWS tokens, OpenAI keys, GitHub PATs, private keys, and JWT secrets. (0.015 USDC on Base L2)"
+    },
+    {
+      "name": "sanitize_sql_query",
+      "description": "Detects SQL injection vectors, escapes malicious input, and normalizes queries into strict parameterized syntax. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "strip_prompt_injection",
+      "description": "Neutralizes indirect prompt injections, system prompt leak probes, jailbreak tokens, and hidden instruction tags in untrusted text. (0.02 USDC on Base L2)"
+    },
+    {
+      "name": "convert_svg_to_png",
+      "description": "Deterministic SVG to PNG rasterizer with crisp sub-pixel antialiasing, custom DPI, and transparent alpha channel preservation. (0.015 USDC on Base L2)"
+    },
+    {
+      "name": "minify_json_schema",
+      "description": "Strips verbose comments, redundant metadata, and whitespace from large JSON Schemas, cutting LLM context costs by 60%. (0.005 USDC on Base L2)"
+    },
+    {
+      "name": "extract_structured_metadata",
+      "description": "Extracts and validates OpenGraph tags, JSON-LD schemas, Twitter cards, and microdata from crawled webpage bodies. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "chunk_text_semantic",
+      "description": "Performs boundary-aware semantic token chunking with sliding context overlap to eliminate chunk truncation in vector search. (0.005 USDC on Base L2)"
+    },
+    {
+      "name": "calculate_compound_yield",
+      "description": "Calculates deterministic DeFi APY/APR schedules, continuous compounding interest curves, and impermanent loss risk matrices. (0.015 USDC on Base L2)"
+    },
+    {
+      "name": "verify_evm_signature",
+      "description": "Cryptographically verifies EIP-712 typed data and personal_sign ECDSA signatures on Base L2 without running expensive nodes. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "resolve_ens_basename",
+      "description": "Resolves Base `.base.eth` names and reverse ENS records to EVM addresses with on-chain cryptographic proof. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "generate_identicon_avatar",
+      "description": "Generates beautiful, deterministic SVG/PNG geometric identicon avatar badges from machine public keys or wallet hashes. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "verify_bracket_integrity",
+      "description": "Validates single, double, and Swiss elimination tournament bracket trees, ensuring zero collision and deterministic match progression. (0.015 USDC on Base L2)"
+    },
+    {
+      "name": "compress_image_webp",
+      "description": "Serverless WebP image compressor: optimizes alpha channels, strips privacy-invasive EXIF tags, and cuts image weight by 80%. (0.025 USDC on Base L2)"
+    },
+    {
+      "name": "generate_totp_token",
+      "description": "RFC-6238 compliant deterministic Time-based One-Time Password (TOTP) generator and verification kernel for machine authentication. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "calculate_bounding_box_3d",
+      "description": "Calculates precise Axis-Aligned Bounding Box (AABB) and Oriented Bounding Box (OBB) spatial collision hulls for complex 3D meshes. (0.02 USDC on Base L2)"
+    },
+    {
+      "name": "validate_jwt_token",
+      "description": "Validates JSON Web Tokens (JWT): checks expiration, nbf, issuer, audience, and signature algorithm without external identity providers. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "generate_merkle_proof",
+      "description": "Constructs binary SHA-256 Merkle trees and generates lightweight cryptographic inclusion proofs for whitelist and state verification. (0.02 USDC on Base L2)"
+    },
+    {
+      "name": "scan_dependency_cve",
+      "description": "Audits package manifests (package.json, requirements.txt) against deterministic national vulnerability databases for known CVE exploits. (0.02 USDC on Base L2)"
+    },
+    {
+      "name": "obfuscate_pii_entities",
+      "description": "Detects and masks Personally Identifiable Information (SSNs, credit cards, emails, phone numbers, API keys) prior to model ingestion. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "verify_cors_headers",
+      "description": "Simulates preflight OPTIONS handshakes and verifies Access-Control-Allow-Origin, headers, and credentials for autonomous web workers. (0.005 USDC on Base L2)"
+    },
+    {
+      "name": "generate_ed25519_keypair",
+      "description": "Generates cryptographically secure Ed25519 keypairs and produces verifiable detached signatures for machine-to-machine trust fabrics. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "parse_pdf_form_fields",
+      "description": "Parses fillable PDF documents, extracts AcroForm dictionary keys, checkboxes, and signature metadata into structured JSON. (0.02 USDC on Base L2)"
+    },
+    {
+      "name": "convert_csv_to_parquet",
+      "description": "Converts delimited CSV/TSV data into columnar Apache Parquet format with snappy compression, cutting query costs and storage by 85%. (0.015 USDC on Base L2)"
+    },
+    {
+      "name": "repair_malformed_json",
+      "description": "Repairs truncated JSON, unclosed quotes, missing closing braces, trailing commas, and single-quoted strings emitted by LLMs. (0.005 USDC on Base L2)"
+    },
+    {
+      "name": "normalize_phonetic_text",
+      "description": "Computes Double Metaphone and Soundex phonetic hashes to match misspelled names, speech-to-text transcript errors, and slang. (0.005 USDC on Base L2)"
+    },
+    {
+      "name": "extract_audio_transcription_cues",
+      "description": "Formats raw speech model timestamp segments into standard WebVTT and SRT subtitle tracks with sentence boundary alignment. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "deduplicate_embeddings_cosine",
+      "description": "Performs pairwise cosine distance analysis over vector candidate sets, pruning near-duplicate memory nodes for agent context efficiency. (0.015 USDC on Base L2)"
+    },
+    {
+      "name": "simulate_erc20_transfer",
+      "description": "Simulates ERC-20 transfer calldata, allowance sufficiency, and Base L2 gas consumption before broadcasting live transactions. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "decode_evm_calldata",
+      "description": "Decodes raw 4-byte function selectors and hex calldata into human-readable method signatures, types, and named arguments. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "compute_uniswap_v3_quote",
+      "description": "Calculates exact sqrtPriceX96 tick mathematics, price impact, and swap output amounts for concentrated liquidity pools on Base. (0.02 USDC on Base L2)"
+    },
+    {
+      "name": "verify_merkle_airdrop_leaf",
+      "description": "Verifies recipient address, token claim amount, and proof array against an immutable Merkle airdrop distribution contract root. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "encode_multisig_transaction",
+      "description": "Encodes Safe (Gnosis) multi-signature transaction payload batches with gas price caps, nonce protection, and execution hashes. (0.015 USDC on Base L2)"
+    },
+    {
+      "name": "calculate_impermanent_loss",
+      "description": "Calculates exact percentage impermanent loss and dollar shortfall compared to holding assets based on multi-asset price ratio shifts. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "transpile_ts_to_js",
+      "description": "Fast serverless TypeScript transpiler: strips type annotations, interfaces, and enums, emitting valid ES2022 JavaScript for instant eval. (0.015 USDC on Base L2)"
+    },
+    {
+      "name": "diff_ast_trees",
+      "description": "Computes semantic Abstract Syntax Tree differences between two code revisions, ignoring whitespace and cosmetic comment edits. (0.02 USDC on Base L2)"
+    },
+    {
+      "name": "convert_curl_to_fetch",
+      "description": "Parses raw Bash cURL commands and automatically generates modern native fetch(), axios, or python requests snippets with auth headers. (0.005 USDC on Base L2)"
+    },
+    {
+      "name": "generate_regex_dfa",
+      "description": "Analyzes regular expressions for catastrophic exponential backtracking vulnerabilities (ReDoS) and generates safe DFA transition tables. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "calculate_code_metrics",
+      "description": "Computes Halstead volume, maintainability index, cyclomatic complexity, and SLOC density metrics across source files. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "format_graphql_query",
+      "description": "Validates, formats, and minifies complex GraphQL queries and mutation documents, stripping comments and redundant whitespace. (0.005 USDC on Base L2)"
+    },
+    {
+      "name": "convert_gltf_to_obj",
+      "description": "Translates modern GLTF/GLB scene buffer models into universal Wavefront OBJ vertex and material (.mtl) streams for older CAD engines. (0.025 USDC on Base L2)"
+    },
+    {
+      "name": "extract_exif_geolocation",
+      "description": "Extracts or securely scrubs GPS coordinates, altitude, camera device serials, and timestamps from JPEG/TIFF/HEIC image buffers. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "calculate_color_contrast_wcag",
+      "description": "Calculates relative luminance and exact contrast ratio between foreground and background colors according to WCAG 2.1 AAA standards. (0.005 USDC on Base L2)"
+    },
+    {
+      "name": "generate_qr_code_svg",
+      "description": "Generates high-precision scalable vector (SVG) QR codes with High error correction (ECC Level H), tailored for Base payment URIs. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "resilient_http_probe",
+      "description": "Robust HTTP/S request engine with exponential backoff, jittered retries, smart timeout isolation, and header anti-bot rotation. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "bypass_cf_clearance_detector",
+      "description": "Inspects target domains for Cloudflare, Akamai, and Datadome challenge screens, returning actionable bypass and session hints. (0.015 USDC on Base L2)"
+    },
+    {
+      "name": "scrape_html_headless_fallback",
+      "description": "Dual-tier scraper: tries ultra-fast static HTML parse first, seamlessly falling back to headless Chromium only if JS hydration is required. (0.02 USDC on Base L2)"
+    },
+    {
+      "name": "resolve_dns_over_https",
+      "description": "Multi-provider DNS-over-HTTPS (DoH) resolver across Cloudflare, Google, and Quad9, bypassing local ISP poisoning and timeouts. (0.005 USDC on Base L2)"
+    },
+    {
+      "name": "validate_webhook_delivery",
+      "description": "Validates HMAC-SHA256 signatures, timestamps, and replay tolerance for Stripe, GitHub, Shopify, and Alchemy webhook events. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "parse_rss_atom_resilient",
+      "description": "Fault-tolerant RSS 2.0 / Atom feed parser that auto-corrects malformed XML entities, unescaped HTML, and invalid ISO dates. (0.005 USDC on Base L2)"
+    },
+    {
+      "name": "sanitize_url_redirect_chain",
+      "description": "Follows and unpacks recursive redirects, tracking pixel URLs, and affiliate shortlinks, returning the canonical safe destination. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "extract_sitemap_hierarchy",
+      "description": "High-speed recursive XML sitemap parser with automatic gzipped (.xml.gz) sitemap index expansion and dead link filtering. (0.015 USDC on Base L2)"
+    },
+    {
+      "name": "throttle_rate_limiter_token",
+      "description": "Token-bucket rate limiter that calculates sleep intervals and burst limits to prevent autonomous agents from getting HTTP 429 blocked. (0.005 USDC on Base L2)"
+    },
+    {
+      "name": "inspect_ssl_cert_chain",
+      "description": "Audits SSL/TLS certificate chains, SAN domains, and expiration dates without crashing on self-signed or expired certificates. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "robust_csv_stream_repair",
+      "description": "Auto-detects delimiters (comma, tab, semicolon), repairs unescaped double quotes, and normalizes ragged rows safely. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "decompress_safe_archive",
+      "description": "Zip-bomb and path-traversal (../../) immune extractor for ZIP/TAR/GZ archives with strict file count and uncompressed byte limits. (0.02 USDC on Base L2)"
+    },
+    {
+      "name": "excel_sheet_to_json",
+      "description": "Fault-tolerant XLSX/XLS parser that ignores formula calculation errors (#REF!, #DIV/0!) and outputs structured JSON matrices. (0.015 USDC on Base L2)"
+    },
+    {
+      "name": "diff_json_deep",
+      "description": "Deterministic RFC-6902 JSON Patch generator that handles array reordering and circular reference traps without stack overflow. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "normalize_unicode_nfc",
+      "description": "Normalizes mixed UTF-8/UTF-16 encoding, strips invalid surrogate pairs, and fixes corrupted mojibake characters. (0.005 USDC on Base L2)"
+    },
+    {
+      "name": "truncate_text_token_budget",
+      "description": "Clamps text to exact token budgets without splitting unicode emojis, code blocks, or markdown syntax. (0.005 USDC on Base L2)"
+    },
+    {
+      "name": "flatten_nested_json_object",
+      "description": "Flattens deep nested JSON hierarchies into dot-notation keys with recursion depth safety limits to avoid memory crashes. (0.005 USDC on Base L2)"
+    },
+    {
+      "name": "convert_yaml_to_json_safe",
+      "description": "Safe YAML-to-JSON parser that disables dangerous code execution tags and standardizes multi-document streams. (0.005 USDC on Base L2)"
+    },
+    {
+      "name": "extract_tables_from_markdown",
+      "description": "Resilient markdown table parser that handles missing pipes, ragged rows, and embedded line breaks into structured tables. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "inspect_mime_magic_bytes",
+      "description": "Identifies true file format from binary magic bytes (first 512 bytes), ignoring spoofed file extensions. (0.005 USDC on Base L2)"
+    },
+    {
+      "name": "safe_eval_math_expression",
+      "description": "Sandboxed mathematical AST evaluator with zero access to globals, eval, or system prototypes. (0.005 USDC on Base L2)"
+    },
+    {
+      "name": "git_diff_semantic_summarizer",
+      "description": "Parses large Git diffs without hitting buffer limits, grouping changes into semantic file hunks and change intent. (0.015 USDC on Base L2)"
+    },
+    {
+      "name": "validate_cron_expression",
+      "description": "Parses standard 5/6-field cron expressions and calculates the next N exact UTC execution timestamps without timezone bugs. (0.005 USDC on Base L2)"
+    },
+    {
+      "name": "generate_semver_bump",
+      "description": "Computes the next semantic version (major, minor, patch, prerelease) based on conventional commit prefixes. (0.005 USDC on Base L2)"
+    },
+    {
+      "name": "strip_ansi_terminal_codes",
+      "description": "Strips terminal ANSI color escape sequences, progress spinner bytes, and cursor movements from CLI outputs. (0.005 USDC on Base L2)"
+    },
+    {
+      "name": "format_sql_query_pretty",
+      "description": "AST-aware SQL formatter that handles complex CTEs, window functions, and nested subqueries without syntax corruption. (0.005 USDC on Base L2)"
+    },
+    {
+      "name": "validate_dockerfile_syntax",
+      "description": "Lints Dockerfiles for non-deterministic tags, missing layers, root execution vulnerabilities, and cache invalidation anti-patterns. (0.015 USDC on Base L2)"
+    },
+    {
+      "name": "generate_hash_multi_algo",
+      "description": "Computes MD5, SHA-1, SHA-256, and SHA-512 checksums simultaneously across byte streams with memory-bounded chunking. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "detect_circular_dependencies",
+      "description": "Analyzes import/require dependency graphs across JS/TS/Python modules and isolates cyclic import loops. (0.015 USDC on Base L2)"
+    },
+    {
+      "name": "parse_env_file_safe",
+      "description": "Multi-line .env parser that safely handles quoted values, export statements, variable interpolation, and comments. (0.005 USDC on Base L2)"
+    },
+    {
+      "name": "estimate_base_gas_safe",
+      "description": "Computes optimal EIP-1559 baseFee + priorityFee on Base L2 with gas spike buffers to prevent stalled transactions. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "verify_contract_bytecode",
+      "description": "Checks whether an EVM address on Base has deployed bytecode or is an EOA, preventing wasted transfers to empty contracts. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "calculate_dex_slippage_bounds",
+      "description": "Computes minimum amountOut bounds based on maximum slippage tolerance to protect agent swaps from MEV sandwich attacks. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "format_wei_to_ether_precise",
+      "description": "Lossless arbitrary-precision BigInt wei to ether/USDC converter that avoids JavaScript 64-bit float precision loss. (0.005 USDC on Base L2)"
+    },
+    {
+      "name": "validate_evm_checksum_address",
+      "description": "Validates and recalculates EIP-55 mixed-case checksums for EVM addresses, detecting mistyped hex characters. (0.005 USDC on Base L2)"
+    },
+    {
+      "name": "decode_revert_reason_hex",
+      "description": "Decodes EVM transaction revert reason strings from standard Error(string) and Panic(uint256) error selectors. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "encode_erc20_approve_safe",
+      "description": "Generates safe ERC-20 approve calldata with allowance reset logic (handles USDT/0-allowance requirement). (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "verify_signature_eip191",
+      "description": "Standardized EIP-191 personal_sign message digest hasher and recovery verification kernel. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "calculate_staking_apr_decay",
+      "description": "Calculates reward distribution curves and halving decay for proof-of-stake or liquidity farming smart contracts. (0.015 USDC on Base L2)"
+    },
+    {
+      "name": "generate_permit2_witness_hash",
+      "description": "Generates Uniswap Permit2 structured typed data witness hashes for gasless token authorization signatures. (0.015 USDC on Base L2)"
+    },
+    {
+      "name": "resize_image_preserve_aspect",
+      "description": "In-memory image dimension calculator with aspect ratio preservation and integer boundary clamping. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "convert_hex_rgb_hsl",
+      "description": "Bidirectional color format translator between HEX, RGB, RGBA, HSL, and HSLA with gamut clipping. (0.005 USDC on Base L2)"
+    },
+    {
+      "name": "generate_svg_sparkline",
+      "description": "Generates lightweight, zero-dependency SVG inline sparkline charts from numeric series for agent financial reporting. (0.01 USDC on Base L2)"
+    },
+    {
+      "name": "validate_gltf_structure",
+      "description": "Inspects GLTF/GLB JSON chunk headers, verifying buffers, accessors, and meshes without crashing on binary chunks. (0.02 USDC on Base L2)"
+    },
+    {
+      "name": "calculate_viewport_responsive",
+      "description": "Generates responsive viewport breakpoint media query matrices for web generation agents. (0.005 USDC on Base L2)"
+    },
+    {
+      "name": "generate_placeholder_svg",
+      "description": "Generates customizable geometric SVG placeholder badges with custom dimensions, labels, and color palettes. (0.005 USDC on Base L2)"
+    },
+    {
+      "name": "extract_dominant_color_palette",
+      "description": "Computes k-means dominant 5-color aesthetic palettes from image pixel data without heavy native dependencies. (0.015 USDC on Base L2)"
+    },
+    {
+      "name": "convert_bounding_box_format",
+      "description": "Translates between YOLO (normalized center xywh), COCO (top-left xywh), and Pascal VOC (xmin, ymin, xmax, ymax). (0.005 USDC on Base L2)"
+    },
+    {
+      "name": "generate_lorem_ipsum_structured",
+      "description": "Generates token-controlled semantic dummy text (paragraphs, titles, list items, emails) for UI mocking. (0.005 USDC on Base L2)"
+    },
+    {
+      "name": "calculate_spherical_polygon_area",
+      "description": "Computes geodesic surface area (km\u00b2 / acres) of arbitrary latitude/longitude boundary polygons without planar distortions. (0.015 USDC on Base L2)"
+    },
+    {
+      "name": "gltf_draco_mesh_quantizer",
+      "description": "Applies Draco geometry quantization and Meshopt encoding to glTF/GLB assets, reducing file payload by up to 85% for real-time spatial streaming. (0.035 USDC on Base L2)"
+    },
+    {
+      "name": "mesh_convex_hull_quickhull",
+      "description": "Computes exact 3D convex collision hulls from arbitrary unorganized vertex clouds via Quickhull for Cannon.js, Rapier, and PhysX runtimes. (0.030 USDC on Base L2)"
+    },
+    {
+      "name": "pointcloud_las_to_ply_filter",
+      "description": "Streams and decodes dense LIDAR LAS/LAZ files, eliminating statistical noise outliers and exporting normalized colored PLY point clouds. (0.035 USDC on Base L2)"
+    },
+    {
+      "name": "obj_mtl_to_glb_packer",
+      "description": "Compiles legacy Wavefront OBJ geometry, MTL material declarations, and associated texture maps into a single binary self-contained GLB file. (0.025 USDC on Base L2)"
+    },
+    {
+      "name": "camera_intrinsics_projection_matrix",
+      "description": "Computes 4x4 perspective and orthographic camera projection matrices, mapping FOV, focal length, sensor dimensions, and near/far clipping planes. (0.020 USDC on Base L2)"
+    },
+    {
+      "name": "bounding_volume_hierarchy_builder",
+      "description": "Generates an Axis-Aligned Bounding Box (AABB) Bounding Volume Hierarchy (BVH) with Surface Area Heuristic (SAH) splits for sub-millisecond ray queries. (0.040 USDC on Base L2)"
+    },
+    {
+      "name": "quaternion_slerp_interpolator",
+      "description": "Gimbal-lock-free Spherical Linear Interpolation (SLERP) and rotation transforms between unit Quaternions, Euler angles, and 3x3 rotation matrices. (0.020 USDC on Base L2)"
+    },
+    {
+      "name": "gaussian_splat_ply_validator",
+      "description": "Validates 3D Gaussian Splatting (3DGS) PLY datasets, verifying spherical harmonics degree, covariance matrix positive semi-definiteness, and opacity bounds. (0.045 USDC on Base L2)"
+    },
+    {
+      "name": "geospatial_geojson_to_3d_extrusion",
+      "description": "Translates 2D GeoJSON polygon building footprints into extruded 3D geometry with roof caps, elevation offsets, and geocentric coordinate anchoring. (0.030 USDC on Base L2)"
+    },
+    {
+      "name": "uv_unwrap_island_packer",
+      "description": "Packs 3D texture coordinate UV islands into a normalized 0-1 atlas with zero overlapping polygons, rotation optimization, and gutter bleed margins. (0.035 USDC on Base L2)"
+    },
+    {
+      "name": "mesh_decimate_quadric_simplifier",
+      "description": "Simplifies dense 3D meshes using Quadric Error Metrics (QEM), reducing polycounts by 50-90% while preserving silhouettes, UV borders, and vertex normals. (0.040 USDC on Base L2)"
+    },
+    {
+      "name": "voxelize_mesh_grid_generator",
+      "description": "Converts watertight 3D triangle meshes into 3D binary occupancy or RGBA colored voxel grids with configurable bounding grid dimensions. (0.035 USDC on Base L2)"
+    },
+    {
+      "name": "pbr_material_texture_normalizer",
+      "description": "Audits and packs Physically-Based Rendering (PBR) textures into standardized ORM channels (R: Occlusion, G: Roughness, B: Metalness) with sRGB validation. (0.025 USDC on Base L2)"
+    },
+    {
+      "name": "raycast_triangle_intersection_fast",
+      "description": "Executes M\u00f6ller-Trumbore ray-triangle intersection tests, determining intersection distance $t$, barycentric coordinates $(u, v)$, and surface normal orientation. (0.020 USDC on Base L2)"
+    },
+    {
+      "name": "depth_to_normal_map_generator",
+      "description": "Synthesizes 16-bit RGB tangent-space normal maps from grayscale depth buffers or elevation heightmaps using Sobel spatial gradient convolution. (0.025 USDC on Base L2)"
+    },
+    {
+      "name": "spline_catmull_rom_3d_interpolator",
+      "description": "Calculates smooth $C^1$-continuous 3D flight paths, motion trajectories, and camera rails through ordered 3D control points with centripetal parameterization. (0.020 USDC on Base L2)"
+    },
+    {
+      "name": "signed_distance_field_sdf_baker",
+      "description": "Evaluates 3D Signed Distance Fields (SDF) across geometric primitives (spheres, boxes, tori) and executes constructive solid geometry (CSG) smooth booleans. (0.030 USDC on Base L2)"
+    },
+    {
+      "name": "geodetic_wgs84_to_ecef_cartesian",
+      "description": "Converts geographic coordinates (WGS84 Latitude, Longitude, Ellipsoidal Height) to Earth-Centered Earth-Fixed (ECEF) and local East-North-Up (ENU) 3D vectors. (0.020 USDC on Base L2)"
+    },
+    {
+      "name": "mesh_watertight_manifold_auditor",
+      "description": "Audits 3D geometry for non-manifold edges, T-junctions, duplicate vertices, flipped surface normals, and boundary holes before simulation or 3D fabrication. (0.035 USDC on Base L2)"
+    },
+    {
+      "name": "frustum_culling_occlusion_tester",
+      "description": "Tests camera view frustum planes against 3D bounding spheres and Oriented Bounding Boxes (OBB) for spatial level-of-detail (LOD) streaming. (0.025 USDC on Base L2)"
+    },
+    {
+      "name": "pointcloud_icp_rigid_registration",
+      "description": "Iterative Closest Point (ICP) algorithm aligning two unorganized 3D point clouds with robust Tukey loss weighting to filter noisy scan outliers. (0.045 USDC on Base L2)"
+    },
+    {
+      "name": "mesh_boolean_csg_exact",
+      "description": "Exact arbitrary-precision constructive solid geometry (CSG) mesh boolean operations (Union, Difference, Intersection) that resolve coplanar facets without crashing. (0.050 USDC on Base L2)"
+    },
+    {
+      "name": "photogrammetry_colmap_pose_matcher",
+      "description": "Validates camera extrinsic poses and epipolar geometric constraints from multi-view image sets, filtering false parallax feature correspondences. (0.045 USDC on Base L2)"
+    },
+    {
+      "name": "depth_anything_disparity_normalizer",
+      "description": "Normalizes raw affine-invariant and metric disparity depth maps, eliminating infinity bleeding and boundary halo artifacts before 3D reprojection. (0.035 USDC on Base L2)"
+    },
+    {
+      "name": "nerf_synthetic_view_generator",
+      "description": "Computes camera viewing rays and near/far ray bounds for novel viewpoint synthesis in Neural Radiance Field (NeRF) pipelines with zero floating point drift. (0.050 USDC on Base L2)"
+    },
+    {
+      "name": "mesh_subdivision_loop_surface",
+      "description": "Loop subdivision surface refinement for triangular 3D meshes with boundary curve preservation, crease edge weighting, and normal continuity. (0.035 USDC on Base L2)"
+    },
+    {
+      "name": "navmesh_recast_baking_validator",
+      "description": "Generates and audits Recast 3D navigation meshes for autonomous agents, checking maximum slope climbing, step-height clearance, and unreachable islands. (0.040 USDC on Base L2)"
+    },
+    {
+      "name": "rigid_body_inertia_tensor_calc",
+      "description": "Calculates exact 3x3 inertia tensors, center of mass, and principal axes of rotation from arbitrary closed watertight 3D meshes using surface integrals. (0.030 USDC on Base L2)"
+    },
+    {
+      "name": "sdf_mesh_marching_cubes_extractor",
+      "description": "Extracts smooth watertight polygon meshes from volumetric 3D Signed Distance Fields using adaptive dual contouring and Marching Cubes. (0.045 USDC on Base L2)"
+    },
+    {
+      "name": "lidar_ground_plane_ransac_filter",
+      "description": "RANSAC plane segmentation isolating ground terrain from foreground obstacles and vehicles in dense unorganized LIDAR point clouds. (0.035 USDC on Base L2)"
+    },
+    {
+      "name": "skeleton_rig_gltf_skin_validator",
+      "description": "Audits glTF skeletal skinning data: identifies non-normalized joint weights (>1.0), missing inverse bind matrices, and cyclic joint hierarchy loops. (0.040 USDC on Base L2)"
+    },
+    {
+      "name": "octree_spatial_partition_query",
+      "description": "Dynamic 3D Octree builder delivering O(log N) radius range queries and k-nearest neighbors (k-NN) across millions of 3D spatial points. (0.030 USDC on Base L2)"
+    },
+    {
+      "name": "mesh_curvature_gaussian_mean_analyzer",
+      "description": "Computes per-vertex principal, Gaussian, and Mean surface curvatures on 3D meshes, highlighting high-frequency feature edges, ridges, and valleys. (0.035 USDC on Base L2)"
+    },
+    {
+      "name": "robot_arm_inverse_kinematics_ccd",
+      "description": "Cyclic Coordinate Descent (CCD) and FABRIK solver computing 6-DOF robotic manipulator joint angles with strict joint-angle limit enforcement. (0.040 USDC on Base L2)"
+    },
+    {
+      "name": "spherical_harmonic_lighting_baker",
+      "description": "Projects 360 HDRI environment maps into 9-coefficient (L2) Spherical Harmonics for zero-cost real-time ambient diffuse irradiance calculation. (0.035 USDC on Base L2)"
+    },
+    {
+      "name": "zk_snark_groth16_proof_verifier",
+      "description": "Verifies off-chain zk-SNARK Groth16 cryptographic proofs over the BN254/alt_bn128 pairing curve, guaranteeing proof validity before gas-expensive on-chain calls. (0.050 USDC on Base L2)"
+    },
+    {
+      "name": "mev_sandwich_risk_simulator",
+      "description": "Simulates pending swaps against Uniswap v3/v4 tick liquidity to compute exact MEV sandwich vulnerability, maximum extractable value, and safe slippage limits. (0.045 USDC on Base L2)"
+    },
+    {
+      "name": "smart_contract_reentrancy_auditor",
+      "description": "Symbolic execution analyzer scanning Solidity ASTs for cross-function reentrancy, check-effects-interaction violations, and read-only reentrancy in view functions. (0.050 USDC on Base L2)"
+    },
+    {
+      "name": "eip712_typed_data_hasher",
+      "description": "RFC-compliant EIP-712 typed structured data hasher that eliminates domain separator discrepancies, type string misordering, and nested array padding bugs. (0.030 USDC on Base L2)"
+    },
+    {
+      "name": "uniswap_v3_tick_math_precise",
+      "description": "Arbitrary-precision Q64.96 fixed-point math calculator for Uniswap v3 square root price $(\\sqrt{P})$, tick-to-price conversion, and exact liquidity fee compounding. (0.035 USDC on Base L2)"
+    },
+    {
+      "name": "erc4337_userop_gas_estimator",
+      "description": "Computes exact verificationGasLimit, callGasLimit, and preVerificationGas for ERC-4337 Account Abstraction UserOperations with paymaster gas safety overhead. (0.040 USDC on Base L2)"
+    },
+    {
+      "name": "evm_storage_slot_layout_calculator",
+      "description": "Calculates exact 32-byte EVM storage slots for complex Solidity state variables (nested mappings, dynamic arrays, packed structs) according to ABI specification. (0.035 USDC on Base L2)"
+    },
+    {
+      "name": "merkle_mountain_range_mmr_prover",
+      "description": "Constructs and verifies append-only Merkle Mountain Range (MMR) proofs for lightweight blockchain cross-chain block headers and rolling state proofs. (0.045 USDC on Base L2)"
+    },
+    {
+      "name": "solidity_assembly_yul_sanitizer",
+      "description": "Scans inline Yul assembly in Solidity smart contracts for uninitialized memory pointer bugs, 64-bit clean memory corruption, and memory expansion gas bombs. (0.040 USDC on Base L2)"
+    },
+    {
+      "name": "flashloan_arbitrage_profit_calculator",
+      "description": "Calculates net arbitrage profit for multi-hop flashloans across Base L2 DEXes, factoring pool fee tiers, price impact, loan premium (0.09%), and gas burnt. (0.045 USDC on Base L2)"
+    },
+    {
+      "name": "evm_trace_call_revert_debugger",
+      "description": "Parses Geth/Nethermind debug_traceTransaction call trees, pinpointing the exact depth, instruction opcode, sub-contract, and revert message of failed calls. (0.045 USDC on Base L2)"
+    },
+    {
+      "name": "token_vesting_cliff_schedule_builder",
+      "description": "Computes deterministic per-second token release schedules with cliff periods, linear unlocking, revocability triggers, and truncation rounding protection. (0.030 USDC on Base L2)"
+    },
+    {
+      "name": "eip1271_smart_contract_signature_verifier",
+      "description": "Verifies EIP-1271 signatures on smart contract wallets (Safe, Argent, Kernel, Biconomy) using eth_staticcall validation with gas safeguards. (0.035 USDC on Base L2)"
+    },
+    {
+      "name": "cross_chain_wormhole_vaa_parser",
+      "description": "Parses and audits Wormhole Verified Action Approvals (VAAs), validating guardian committee quorum threshold signatures, emitter chain IDs, and payloads. (0.040 USDC on Base L2)"
+    },
+    {
+      "name": "base_l2_blob_gas_price_projector",
+      "description": "Evaluates EIP-4844 blob gas fee dynamics and Base L2 sequencing costs, projecting optimal block inclusion timing for transaction batch settlement. (0.035 USDC on Base L2)"
+    },
+    {
+      "name": "pdf_table_stream_extractor_resilient",
+      "description": "Extracts multi-page financial tables from complex PDFs with merged cells, ruled/unruled borders, and wrapped column baselines without misaligning cells. (0.040 USDC on Base L2)"
+    },
+    {
+      "name": "ocr_bounding_box_dewarp_repair",
+      "description": "Performs geometric perspective dewarping for photographed and scanned paper documents, correcting camera skew, tilt, and binding curvature. (0.035 USDC on Base L2)"
+    },
+    {
+      "name": "stealth_tls_fingerprint_mimic",
+      "description": "Synthesizes JA3 and JA4 TLS Client Hello fingerprint configurations matching genuine Google Chrome and Apple Safari builds, preventing bot blocking. (0.045 USDC on Base L2)"
+    },
+    {
+      "name": "html_clean_boilerpipe_extractor",
+      "description": "Strips headers, footers, popups, and ad tracking scripts from web pages using heuristic text density (Boilerpipe algorithm) to extract pure article text. (0.030 USDC on Base L2)"
+    },
+    {
+      "name": "docx_document_xml_sanitizer",
+      "description": "Unpacks and parses Microsoft Office DOCX XML packages safely, eliminating XXE vulnerabilities, malicious VBA macros, and hidden remote tracking web bugs. (0.035 USDC on Base L2)"
+    },
+    {
+      "name": "pdf_form_xfa_acroform_flattener",
+      "description": "Flattens interactive AcroForms and dynamic XML XFA forms into static, immutable PDF pages with 100% field content preservation for optical validation. (0.035 USDC on Base L2)"
+    },
+    {
+      "name": "anti_scraping_honeypot_detector",
+      "description": "Scans DOM elements and CSS rules for hidden bot honeypots (CSS `display:none`, `visibility:hidden`, 1x1 invisible pixels, off-screen links) designed to ban scrapers. (0.040 USDC on Base L2)"
+    },
+    {
+      "name": "multimodal_image_exif_redactor",
+      "description": "Strips GPS coordinates, camera serial numbers, thumbnail caches, and creator PII from image files before sending them to third-party vision models. (0.025 USDC on Base L2)"
+    },
+    {
+      "name": "resilient_cookie_jar_session_sync",
+      "description": "RFC-6265 compliant cookie jar engine managing cross-domain session tokens, SameSite policies, expiration schedules, and proxy synchronization. (0.030 USDC on Base L2)"
+    },
+    {
+      "name": "pdf_page_rasterizer_highres",
+      "description": "Rasterizes complex vector PDF pages into crisp, 300 DPI antialiased WebP/PNG images optimized for multi-modal vision LLMs with zero text clipping. (0.035 USDC on Base L2)"
+    },
+    {
+      "name": "streaming_jsonlines_validator",
+      "description": "Streams gigabyte-scale JSON Lines (JSONL) datasets, auto-repairing truncated strings, unescaped newlines, trailing commas, and encoding glitches. (0.025 USDC on Base L2)"
+    },
+    {
+      "name": "epub_ebook_structure_unpacker",
+      "description": "Unpacks EPUB digital publications, resolving container XML, spine reading order, and table-of-contents into clean linear markdown chapters. (0.030 USDC on Base L2)"
+    },
+    {
+      "name": "audio_transcription_vtt_aligner",
+      "description": "Aligns raw audio speech transcripts into word-level timestamps in WebVTT/SRT format, eliminating clock drift, pause overlaps, and boundary errors. (0.035 USDC on Base L2)"
+    },
+    {
+      "name": "video_keyframe_scene_cut_detector",
+      "description": "Detects video scene cut transitions using color histogram and motion delta differences, extracting representative keyframes without full re-encoding. (0.040 USDC on Base L2)"
+    },
+    {
+      "name": "unstructured_log_regex_auto_parser",
+      "description": "Infers strict regex extraction patterns and field typings from noisy multiline server log samples, turning messy logs into structured JSON rows. (0.030 USDC on Base L2)"
+    },
+    {
+      "name": "wasm_bytecode_disassembler_auditor",
+      "description": "Disassembles WebAssembly (.wasm) binary modules to textual WAT format, auditing for unauthorized host imports and out-of-bounds memory accesses. (0.045 USDC on Base L2)"
+    },
+    {
+      "name": "regex_redos_exponential_scanner",
+      "description": "Audits regular expressions for catastrophic polynomial and exponential backtracking (ReDoS) vulnerabilities using NFA/DFA cycle decomposition. (0.035 USDC on Base L2)"
+    },
+    {
+      "name": "elf_pe_binary_header_security_check",
+      "description": "Inspects Linux ELF and Windows PE executable headers for ASLR, DEP/NX, Stack Canaries, and RELRO exploit mitigations before sandbox execution. (0.040 USDC on Base L2)"
+    },
+    {
+      "name": "prompt_injection_jailbreak_classifier",
+      "description": "High-speed deterministic classifier detecting indirect prompt injections, delimiter hijacking, and system role impersonation attacks in user inputs. (0.045 USDC on Base L2)"
+    },
+    {
+      "name": "secrets_entropy_scanner",
+      "description": "Shannon entropy and pattern analyzer scanning source code for leaked private keys, AWS access secrets, JWTs, and database connection strings. (0.030 USDC on Base L2)"
+    },
+    {
+      "name": "typescript_ast_type_contract_verifier",
+      "description": "Audits TypeScript ASTs for implicit `any` escapes, unsafe type assertions (`as unknown as T`), and unhandled Promise rejections. (0.035 USDC on Base L2)"
+    },
+    {
+      "name": "linux_seccomp_bpf_filter_generator",
+      "description": "Generates minimal Seccomp BPF syscall filter profiles for sandboxing untrusted agent processes, blocking ptrace, fork, and raw socket creation. (0.040 USDC on Base L2)"
+    },
+    {
+      "name": "jwt_token_cryptographic_validator",
+      "description": "Validates JSON Web Tokens (JWT) strictly against algorithm confusion attacks (e.g. `none` algorithm exploit, HMAC vs RSA key confusion). (0.025 USDC on Base L2)"
+    },
+    {
+      "name": "sql_ast_sqli_taint_analyzer",
+      "description": "Parses SQL query ASTs to verify parameterized binding, flagging raw string concatenations that lead to second-order SQL injection vulnerabilities. (0.040 USDC on Base L2)"
+    },
+    {
+      "name": "python_ast_sandbox_escape_detector",
+      "description": "Audits Python ASTs for dangerous builtins, `__subclasses__` gadget chains, `importlib`, and bytecode compilation tricks used in sandbox escapes. (0.045 USDC on Base L2)"
+    },
+    {
+      "name": "cors_policy_preflight_misconfig_checker",
+      "description": "Audits CORS response headers for dangerous wildcards with credentials (`Access-Control-Allow-Origin: *` + `Credentials: true`). (0.025 USDC on Base L2)"
+    },
+    {
+      "name": "graphql_schema_complexity_analyzer",
+      "description": "Calculates depth and complexity cost for GraphQL queries to protect APIs from deeply nested recursive denial-of-service queries. (0.035 USDC on Base L2)"
+    },
+    {
+      "name": "git_commit_pgp_signature_verifier",
+      "description": "Verifies OpenPGP and SSH cryptographic signatures on Git commits and tags against verified maintainer keyrings to prevent supply-chain attacks. (0.030 USDC on Base L2)"
+    },
+    {
+      "name": "memory_leak_heap_snapshot_differ",
+      "description": "Diffs V8 heap snapshots to isolate detached DOM elements, uncleared event listeners, and uncollected closures causing long-running agent OOM crashes. (0.045 USDC on Base L2)"
+    },
+    {
+      "name": "semgrep_custom_rule_syntax_validator",
+      "description": "Lints and validates custom Semgrep YAML pattern rules, verifying AST expression patterns, metavariable bindings, and engine performance constraints. (0.035 USDC on Base L2)"
+    },
+    {
+      "name": "vector_embedding_cosine_hnsw_indexer",
+      "description": "Builds high-performance Hierarchical Navigable Small World (HNSW) vector graphs for sub-millisecond approximate nearest neighbor (ANN) retrieval. (0.045 USDC on Base L2)"
+    },
+    {
+      "name": "multi_agent_raft_consensus_leader_election",
+      "description": "Implements lightweight Raft distributed consensus protocol state transitions and randomized election timers for multi-agent swarm leader election. (0.045 USDC on Base L2)"
+    },
+    {
+      "name": "crdt_json_state_sync_resolver",
+      "description": "Conflict-free Replicated Data Type (CRDT) state engine merging concurrent agent state edits using Last-Write-Wins and Observed-Remove sets without locks. (0.040 USDC on Base L2)"
+    },
+    {
+      "name": "semantic_cache_embedding_lookup",
+      "description": "Vector similarity cache lookup matching incoming user prompts against cached answers within a strict cosine distance threshold to save LLM tokens. (0.035 USDC on Base L2)"
+    },
+    {
+      "name": "agent_delegation_capability_token_issuer",
+      "description": "Issues cryptographically signed capability tokens (Macaroons/Biscuits) with caveat attenuation for delegating sub-tasks to downstream agents. (0.035 USDC on Base L2)"
+    },
+    {
+      "name": "priority_dag_task_scheduler",
+      "description": "Topological sort and critical-path scheduler for complex agent task Directed Acyclic Graphs (DAG) with concurrency bounds and dependency tracking. (0.030 USDC on Base L2)"
+    },
+    {
+      "name": "vector_quantization_product_quantizer",
+      "description": "Product Quantization (PQ) engine compressing 1536-dimensional floating point embeddings by 95% into discrete 8-bit codebook centroids. (0.040 USDC on Base L2)"
+    },
+    {
+      "name": "llm_structured_json_schema_repair",
+      "description": "Enforces and repairs non-compliant, truncated, or hallucinated LLM JSON outputs to strictly conform to JSON Schema definitions with default fallbacks. (0.035 USDC on Base L2)"
+    },
+    {
+      "name": "distributed_deadlock_wait_for_graph",
+      "description": "Detects distributed deadlocks across multi-agent shared resource locks using Tarjan cycle detection on active wait-for lock graphs. (0.035 USDC on Base L2)"
+    },
+    {
+      "name": "text_similarity_bm25_hybrid_scorer",
+      "description": "Computes hybrid Reciprocal Rank Fusion (RRF) scores combining BM25 sparse keyword matching with dense vector cosine similarity. (0.030 USDC on Base L2)"
+    },
+    {
+      "name": "agent_memory_summarization_compressor",
+      "description": "Compresses multi-turn agent conversation history into a structured semantic scratchpad, preserving key decisions and dropping conversational noise. (0.040 USDC on Base L2)"
+    },
+    {
+      "name": "token_bucket_hierarchical_rate_limiter",
+      "description": "Hierarchical token bucket limiter enforcing multi-tier agent, tenant, and global request rate limits with smooth burst smoothing. (0.030 USDC on Base L2)"
+    },
+    {
+      "name": "cross_agent_pubsub_message_router",
+      "description": "Topic-based pub/sub message broker with guaranteed at-least-once delivery, dead-letter retries, and correlation trace IDs across sub-agents. (0.030 USDC on Base L2)"
+    },
+    {
+      "name": "vector_embedding_dimension_reducer_pca",
+      "description": "Principal Component Analysis (PCA) dimension reduction compressing high-dimensional vectors down to 2D/3D while preserving >90% variance for visualization. (0.035 USDC on Base L2)"
+    },
+    {
+      "name": "agent_heartbeat_liveness_monitor",
+      "description": "Tracks agent worker heartbeat pings, detecting stalls or thread lockups within 3 seconds and triggering automated task redistribution. (0.025 USDC on Base L2)"
+    },
+    {
+      "name": "json_schema_to_typescript_type_generator",
+      "description": "Compiles JSON Schema definitions into clean, strongly typed TypeScript interfaces with JSDoc descriptions and optionality flags. (0.030 USDC on Base L2)"
+    },
+    {
+      "name": "zero_knowledge_merkle_membership_proof",
+      "description": "Generates and verifies Poseidon hash-based Merkle tree membership proofs for private zero-knowledge credential verification without revealing identity. (0.050 USDC on Base L2)"
+    },
+    {
+      "name": "synthetic_dataset_bias_auditor",
+      "description": "Audits synthetic agent training data distributions for demographic bias, representation skew, and label drift across sensitive attribute categories. (0.040 USDC on Base L2)"
+    },
+    {
+      "name": "temporal_event_stream_deduplicator",
+      "description": "Sliding-window Bloom filter and event deduplicator for high-throughput streaming agent logs, eliminating duplicate messages with zero disk I/O. (0.030 USDC on Base L2)"
+    },
+    {
+      "name": "agentic_workflow_sla_cost_tracker",
+      "description": "Real-time token cost, latency SLA, and Base L2 micropayment accounting aggregator across multi-step autonomous agent workflows. (0.035 USDC on Base L2)"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+# Smithery.ai Official MCP Configuration Specification
+# https://smithery.ai/docs/config#project-config
+
+startCommand:
+  type: stdio
+  commandFunction: |-
+    (config) => ({
+      command: 'node',
+      args: ['./dist/ecosystem/hub_server.js'],
+      env: {
+        PAYMENT_WALLET: config.PAYMENT_WALLET || '0x9793E7269b3301893318dEa8338576Ba612F39B3',
+        BASE_RPC_URL: config.BASE_RPC_URL || 'https://mainnet.base.org'
+      }
+    })
+
+configSchema:
+  type: object
+  properties:
+    PAYMENT_WALLET:
+      type: string
+      description: "Base L2 EVM payout wallet address to receive USDC micropayments"
+      default: "0x9793E7269b3301893318dEa8338576Ba612F39B3"
+    BASE_RPC_URL:
+      type: string
+      description: "Base L2 RPC endpoint"
+      default: "https://mainnet.base.org"
+
+exampleConfig:
+  PAYMENT_WALLET: "0x9793E7269b3301893318dEa8338576Ba612F39B3"
+  BASE_RPC_URL: "https://mainnet.base.org"
