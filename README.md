@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/logo.png" width="140" height="140" alt="WHAM ENGINE Logo" />
+</p>
+
 # WHAM ENGINE // 200 AI Agent Micro-Skills & Services
 
 [![Smithery Compatible](https://img.shields.io/badge/Smithery-Compatible-blue.svg)](https://smithery.ai)

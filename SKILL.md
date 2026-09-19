@@ -1,6 +1,7 @@
 ---
 name: wham-engine
 description: Fleet of 200 deterministic AI agent micro-services for AST code auditing, spatial/3D mesh geometry, Base L2 Web3 settlement, zero-knowledge proofs, cryptographic hashing, and AI safety. Use when the agent needs deterministic computation, syntax validation, 3D geometry transforms, Base L2 USDC micropayment workflows, prompt injection sanitization, or resilient parsing.
+metadata: { "icon": "https://raw.githubusercontent.com/Whambammy/wham-engine/main/assets/logo.png", "homepage": "https://github.com/Whambammy/wham-engine" }
 ---
 
 # WHAM ENGINE // 200 AI Agent Micro-Skills & Services
